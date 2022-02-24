@@ -120,7 +120,7 @@ class dataset(Dataset):
   def __len__(self):
         return self.len
 
-def get_loaders(train_df, train_text_df, tokenizer, test_texts, config, train_params, test_params):
+def get_loaders(train_df, train_text_df, tokenizer, test_texts, config, train_params, test_params, labels_to_ids):
     IDS = train_df.id.unique()
     np.random.seed(42)
     train_idx = np.random.choice(np.arange(len(IDS)),int(0.99*len(IDS)),replace=False)
@@ -130,20 +130,19 @@ def get_loaders(train_df, train_text_df, tokenizer, test_texts, config, train_pa
     data = train_text_df[['id','text', 'entities']]
     train_dataset = data.loc[data['id'].isin(IDS[train_idx]),['text', 'entities']].reset_index(drop=True)
     test_dataset = data.loc[data['id'].isin(IDS[valid_idx])].reset_index(drop=True)
-    training_set = dataset(train_dataset, tokenizer, config['max_length'], False)
-    testing_set = dataset(test_dataset, tokenizer, config['max_length'], True)
+    training_set = dataset(train_dataset, tokenizer, config['max_length'], False, labels_to_ids)
+    testing_set = dataset(test_dataset, tokenizer, config['max_length'], True, labels_to_ids)
 
     training_loader = DataLoader(training_set, **train_params)
     testing_loader = DataLoader(testing_set, **test_params)
 
     # TEST DATASET
-    test_texts_set = dataset(test_texts, tokenizer, config['max_length'], True)
+    test_texts_set = dataset(test_texts, tokenizer, config['max_length'], True, labels_to_ids)
     test_texts_loader = DataLoader(test_texts_set, **test_params)
-    return training_loader, testing_loader, test_texts_loader, test_dataset
+    return training_loader, testing_loader, test_texts_loader, test_dataset, testing_set, valid_idx, train_df
 
 
-def get_train_data(tokenizer, include_augmented=[]):
+def get_train_data(tokenizer, config, train_params, test_params, labels_to_ids, include_augmented=[]):
     train_df, train_text_df, test_texts = load_formated_data()
-    training_loader, testing_loader, test_texts_loader, test_dataset = get_loaders(train_df, train_text_df, tokenizer, test_texts)
-    return training_loader, testing_loader, test_texts_loader, test_dataset
+    return get_loaders(train_df, train_text_df, tokenizer, test_texts, config, train_params, test_params, labels_to_ids)
 
