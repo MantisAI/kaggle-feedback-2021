@@ -139,7 +139,7 @@ def get_loaders(train_df, train_text_df, tokenizer, test_texts, config, train_pa
     # TEST DATASET
     test_texts_set = dataset(test_texts, tokenizer, config['max_length'], True, labels_to_ids)
     test_texts_loader = DataLoader(test_texts_set, **test_params)
-    return training_loader, testing_loader, test_texts_loader, test_dataset, testing_set, valid_idx, train_df
+    return training_loader, testing_loader, test_texts_loader, test_dataset, testing_set, valid_idx, train_df, IDS
 
 
 def get_train_data(tokenizer, config, train_params, test_params, labels_to_ids, include_augmented=[]):

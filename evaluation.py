@@ -77,8 +77,7 @@ def score_feedback_comp(pred_df, gt_df):
     my_f1_score = TP / (TP + 0.5*(FP+FN))
     return my_f1_score
 
-def evaluate_model(train_df, valid_idx, testing_set, test_dataset):
-    global IDS, test_params
+def evaluate_model(train_df, valid_idx, testing_set, test_dataset, IDS, test_params):
     valid = train_df.loc[train_df['id'].isin(IDS[valid_idx])]
 
     # OOF PREDICTIONS
