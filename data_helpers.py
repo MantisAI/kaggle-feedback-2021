@@ -123,7 +123,7 @@ class dataset(Dataset):
 def get_loaders(train_df, train_text_df, tokenizer, test_texts, config, train_params, test_params, labels_to_ids):
     IDS = train_df.id.unique()
     np.random.seed(42)
-    train_idx = np.random.choice(np.arange(len(IDS)),int(0.99*len(IDS)),replace=False)
+    train_idx = np.random.choice(np.arange(len(IDS)),int(config['train_val_split']*len(IDS)),replace=False)
     valid_idx = np.setdiff1d(np.arange(len(IDS)),train_idx)
     np.random.seed(None)
 
