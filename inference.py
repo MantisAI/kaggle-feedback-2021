@@ -1,6 +1,9 @@
 import pandas as pd 
 import torch
+from tqdm import tqdm
 
+map_clip = {'Lead':9, 'Position':5, 'Evidence':14, 'Claim':3, 'Concluding Statement':11,
+             'Counterclaim':6, 'Rebuttal':4}
 
 def inference(batch, model):
     global config, ids_to_labels   
@@ -28,39 +31,72 @@ def inference(batch, model):
     
     return predictions
 
-def get_predictions(model, df, loader):
-    global config
+def get_predictions(model, df, loader, display_tqdm=False):    
     # put model in training mode
     model.eval()
     
     # GET WORD LABEL PREDICTIONS
-    y_pred2 = []
-    for batch in loader:
-        try:
-            labels = inference(batch)
-            y_pred2.extend(labels)
-        except Exception as e:
-            pass
-
     final_preds2 = []
-    for i in range(len(df)):
-        idx = df.id.values[i]
-        #pred = [x.replace('B-','').replace('I-','') for x in y_pred2[i]]
-        pred = y_pred2[i] # Leave "B" and "I"
-        j = 0
-        while j < len(pred):
-            cls = pred[j]
-            if cls == 'O': j += 1
-            else: cls = cls.replace('B','I') # spans start with B
-            end = j + 1
-            while end < len(pred) and pred[end] == cls:
-                end += 1
-            
-            if cls != 'O' and cls != '' and end - j > config['min_entity_length']:
-                final_preds2.append((idx, cls.replace('I-',''),
-                                    ' '.join(map(str, list(range(j, end))))))
+    i=0
+    if display_tqdm:
+        loop = tqdm(loader, leave=True)
+    else:
+        loop = loader
+    for batch in loop:
+        labels = inference(batch)
         
-            j = end
+        # try and remove some blank spaces
+        try:
+            for y in labels:
+                last_non_o = None
+                last_non_o_pos = 0
+                ii = 0
+                while ii < len(y):
+                    if y[ii]!='O':
+                        if last_non_o:
+                            if ii-last_non_o_pos < 3 and y[ii][0]=='I' and last_non_o[2:]==y[ii][2:]:#and last_non_o[0]=='I'
+
+                                for j in range(last_non_o_pos+1, ii):
+                                    y[j] = y[ii]
+                            last_non_o = y[ii]
+                            last_non_o_pos = ii
+                        else:
+                            last_non_o = y[ii]
+                            last_non_o_pos = ii
+                        ii+=1
+                    else:
+                        while ii<len(y) and y[ii]=='O':
+                            ii+=1
+        except Exception as e:
+            print(e)
+            pass
+        
+        for ii in range(len(labels)):
+            idx = df.id.values[i]
+            
+            pred = labels[ii]
+            j = 0
+            while j < len(pred):
+                cls = pred[j]
+                if cls == 'O': j += 1
+                else: cls = cls.replace('B','I') # spans start with B
+                end = j + 1
+                while end < len(pred) and pred[end] == cls:
+                    end += 1
+                
+                if cls != 'O' and cls != '':
+                    current_class = cls[2:]
+                    if end - j >= map_clip[current_class]:
+                        final_preds2.append((idx, cls.replace('I-',''),
+                                             ' '.join(map(str, list(range(j, end))))))
+
+                j = end
+                
+            i+=1
+        
+        if display_tqdm:
+            loop.update()
+        
         
     oof = pd.DataFrame(final_preds2)
     oof.columns = ['id','class','predictionstring']
