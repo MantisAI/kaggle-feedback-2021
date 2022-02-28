@@ -77,13 +77,13 @@ def score_feedback_comp(pred_df, gt_df):
     my_f1_score = TP / (TP + 0.5*(FP+FN))
     return my_f1_score
 
-def evaluate_model(train_df, valid_idx, testing_set, test_dataset, IDS, test_params):
+def evaluate_model(model, train_df, valid_idx, testing_set, test_dataset, IDS, test_params):
     valid = train_df.loc[train_df['id'].isin(IDS[valid_idx])]
 
     # OOF PREDICTIONS
 
     testing_loader = DataLoader(testing_set, **test_params)
-    oof = get_predictions(test_dataset, testing_loader)
+    oof = get_predictions(model, test_dataset, testing_loader)
 
     # COMPUTE F1 SCORE
     f1s = []
