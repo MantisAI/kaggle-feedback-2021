@@ -94,6 +94,7 @@ def evaluate_model(
     test_params,
     config,
     ids_to_labels,
+    print_f1s=False,
 ):
     valid = train_df.loc[train_df["id"].isin(IDS[valid_idx])]
 
@@ -110,4 +111,6 @@ def evaluate_model(
         gt_df = valid.loc[valid["discourse_type"] == c].copy()
         f1 = score_feedback_comp(pred_df, gt_df)
         f1s.append(f1)
+        if print_f1s:
+            print(f"Class {c} F1: {f1}")
     return np.mean(f1s)
