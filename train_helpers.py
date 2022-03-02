@@ -98,7 +98,15 @@ def train_model(model, config, training_loader, train_df, valid_idx, testing_set
         gc.collect()
 
         model.eval()
-        eval_score = evaluation.evaluate_model(train_df, valid_idx, testing_set, test_dataset, IDS, test_params)
+        eval_score = evaluation.evaluate_model(
+            model,
+            train_df, 
+            valid_idx,
+            testing_set, 
+            test_dataset, 
+            IDS, 
+            test_params
+        )
 
         model.train()
         torch.cuda.empty_cache()
