@@ -43,7 +43,7 @@ def get_predictions(model, df, loader, display_tqdm=False):
     else:
         loop = loader
     for batch in loop:
-        labels = inference(model, batch)
+        labels = inference(batch, model)
         
         # try and remove some blank spaces
         try:
