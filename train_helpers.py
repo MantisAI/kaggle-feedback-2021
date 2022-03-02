@@ -3,6 +3,7 @@ import torch
 import gc
 from tqdm import tqdm
 from transformers import AdamW
+from torch.nn import CrossEntropyLoss
 
 import evaluation
 
@@ -10,6 +11,10 @@ import evaluation
 def train_epoch(epoch, model, optimizer, scaler, training_loader, config, compute_accuracy=True):
     tr_loss, tr_accuracy = 0, 0
     nb_tr_examples, nb_tr_steps = 0, 0
+    loss_ftc = None
+    if config['loss_weights'] is not None:
+        loss_ftc = CrossEntropyLoss(weight=torch.tensor(config['loss_weights']).to(config['device']))
+    
     
     # put model in training mode
     model.train()
@@ -26,6 +31,8 @@ def train_epoch(epoch, model, optimizer, scaler, training_loader, config, comput
 
         loss, tr_logits = model(input_ids=ids, attention_mask=mask, labels=labels,
                                return_dict=False)
+        if loss_ftc is not None:
+            loss = loss_ftc(tr_logits.view(-1, model.num_labels).to(config['device']), labels.view(-1).to(config['device']))
         tr_loss += loss.item()
 
         nb_tr_steps += 1
