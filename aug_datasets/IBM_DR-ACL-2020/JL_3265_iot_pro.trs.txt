@@ -1,0 +1,26 @@
+We should limit the internet of things.
+Now what I mean by the internet of things is this network of devices that are not traditionally considered computers but that are still hooked up to the internet today.
+So certain refrigerators, vehicles, and other items are embedded with internet connectivity that certainly would not have been ten years ago.
+And we think that the proliferation of such devices and their implementation ought be limited.
+Ultimately we think that these limitations might take the form of banning some types of connectivity and also of making sure that people are informed about the existence of the internet at things and give them alternative options to choose from.
+So with that in mind we have three arguments: one about privacy, one about reliability, and one about the types of companies that benefit from the internet of things.
+So first in terms of privacy it should not be anyone's business how often I open my refrigerator but this is exactly the kind of data that's collected by the internet of things.
+Many of these appliances or other devices are designed to send data about our everyday practices back to the company that made them so that these companies can better target products at people.
+Now you might say oh well that's a good thing if it leads to better products but what if it leads to things like companies saying oh well if they opened the refrigerator door on average twenty thousand times a year and if we want them to have to buy a new refrigerator every five years then we'll make it so that it conks out after a hundred thousand opens.
+This kind of enforced failure of products is much more likely with the internet of things.
+Ultimately it's much easier to plan for products to be able unable to function in the future when they're closely connected to the internet.
+In the same way that I phone upgrades are designed to make older I phones unusable so that you have to buy a new one this is now taking place with refrigerators and even with cars with firmware updates.
+So we think that people are being forced to spend a huge amount of money on products that don't serve their purpose any better, it's not like these refrigerators keep your yogurt cooler, but at the same time they're much more expensive and much less reliable in the long term.
+Our second argument then is about reliability and I've already touched on this a little bit but the internet of things simply makes everything it's connected to less reliable.
+Even if you set aside the malevolence that I talked about earlier with planned obsolescence, it's still true that when you make devices more complex you make them more likely to fail.
+Before cars were full of electric components they lasted much longer and were much easier to repair.
+You probably heard older people talk about how it used to be true that you could fix a car by yourself and it was very easy to do in your driveway whereas today it's very difficult and really takes a professional.
+The internet of things is just the next step to this process of making products less reliable over time.
+Ultimately, when they're no longer able to connect to their servers or when their servers go away in the first place these products are going to stop working and people will have to buy new ones so we think that this only makes products less reliable and that this is worse for consumers.
+And our final argument is that ultimately certain very large companies benefit from the internet of things and are able to exclude all other companies.
+The data that the internet of things gathers helps you to better sell products not to make better products but to better target them to your consumers and ensure that people choose your products.
+But only extremely large companies like amazon or samsung are really able to participate.
+Smaller companies are simply being left behind and aren't able to adapt so even if they have a good product to offer they aren't being given access to the data that lets them sell that product.
+We think that ultimately this crowds out smaller and medium sized businesses and leads to greater and greater consolidation of industry in the hands of a few large companies like samsung and that this will ultimately make it harder to regulate these companies and will lead to worse quality of life for everyone when prices go up due to less competition.
+For all of these reasons, we should limit the internet of things.
+Thank you.

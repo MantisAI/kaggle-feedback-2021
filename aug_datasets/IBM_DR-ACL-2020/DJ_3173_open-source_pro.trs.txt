@@ -1,0 +1,32 @@
+We should adopt more open software and we should adopt it a whole lot more widely for the biggest reason that it's a lot fairer in terms of price and it's also going to be a lot better in terms of quality and enjoyment out of the technology in question.
+So let's talk about those things.
+Why is open source a lot more fair in terms of price?
+And I think the biggest reason for this is because of the like way in which intellectual property law works in the status quo.
+If you develop your own software, some kind of coding, a code or something like that, you basically have a monopoly over it.
+You can if you develop some kind of software you can chart pretty much whatever you want for it with like as long as people are going to buy it, because that's just the way it is.
+You have a monopoly over it, you could charge whatever you want.
+So if it's something incredibly important, so let's say like you're you're selling like an operating system for a computer, and you're microsoft maybe, you can charge a good deal of money for something because it's something that like is incredibly important.
+Or maybe it's something that's like even more niche and something that's even more or something it's even more innovative that has even more of a market capture by like single single individual companies or products.
+So that means they can basically charge whatever they want.
+So when you're talking about open source, when you're talking about a large degree of collaborators, when something is basically released to the public, obviously the price is going to be a lot fairer.
+It's probably not going to cost all that much money if it costs anything at all or it's going to cost a rather small amount of money, basically to compensate the developers who do a whole lot of good and give like a whole lot of their time to actually develop these things.
+So open software is almost universally cheaper.
+And that's important because technology should be accessible.
+Technology makes people's lives easier, it makes people's lives better, it's incredibly important and like we live in a modern digital age where technology is incredibly important and we should make sure that people have access to technology, and that technology is affordable.
+People shouldn't have to like like mortgage like huge amounts of money just to get access to some kind of technology.
+But beyond concepts of fairness and like more reasonable pricing, I also think that like you just get better products from open sourcing.
+And the first of these things just, quite obviously, when you have more people working on it you can get a better product.
+Oftentimes you're still going to get high quality developers, when you release something on the internet there's always going to be people that are willing to work on something, that are willing to dedicate like time that they may have to making something that's.
+Good that's why open source software programs exist.
+That's why microsoft isn't the only operating system and that there are alternatives that are open source.
+This is like examples of that are clear.
+So that's important because oftentimes these things can work incredibly well too and the more that they're supported and the more common that they are means that they're only going to become higher quality, which is great.
+But I also think that oftentimes it's a lot more enjoyable on consumer end to have open source software.
+Because you're able to make it a lot more like customizable and like more like individually designed towards whatever your preferences may be in a lot of cases.
+So like let's say that like I'm like an average person who wants to play video games, and like I like video games.
+An important thing is that like sometimes like the coding of the like the basic coding of a video game is released to the public and is like very easily editable and other times it isn't.
+And this makes a big difference because if I can were because if I can like and you don't even need to necessarily have like a particularly extensive background in coding to be able to understand what these things are and to benefit from them, because you can just like say like somebody releases a mod for a video game, so like maybe a game of thrones mod for like crusader kings two or something like that, and that could be like a basic way in which you get like a new degree of enjoyment out of out of a product that exists.
+Because allowing individual developers, individual designers who essentially add their own flare and customization to things.
+And this is possible because the software is released to the and and it's like open and you can like make your own edits and alterations and modifications.
+And then like people can decide what they like and they can essentially like more like thoroughly like customize platforms and things like that, or games and all kinds of stuff, towards our own individual preferences which is pretty cool.
+So for all those reasons, we should adopt open source.

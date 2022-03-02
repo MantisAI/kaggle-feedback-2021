@@ -1,0 +1,26 @@
+I'm proud to stand in proposition of today's motion, that we should adopt open source software.
+So, the model here's, I think, kind of intuitive, in that this is just a thing that we find to be good for the market, good for consumers, good for corporations, that on balance this has done more good than harm.
+So, under this two independent points: first, that this is a beneficial thing for corporations, and secondly, that this is beneficial for consumers.
+First, on the point regarding corporations: I think it's important to recognize, that this is a product that decreases production costs, this is true for two reasons: first is that it decreases the labor costs associate with the product.
+Think something like, google chrome for example, which allows lots of extensions to be added onto the initial product.
+Now, normally, if this was a standard browser, without this open source aspect to it, you would have to engage it like, hiring lots of people that would make these extensions, that would tweak the browser in this way.
+But secondly, you also decrease overhead production costs, things like server costs, and maintenance, and things like that, because you're able to outsource a lot of the processing, and a lot of the actual development to basically your users.
+You're not the one making this product, a lot of your users do it for you, and that decreases the labor costs.
+And, there's any number of ways that can benefit the corporation, they can decrease the cost of their product on the front end, which then increases their sales, they can invest it into other products they are potentially developing, there are any number of ways this could benefit you.
+But secondly, it leads to better technology, that again is something that benefits the corporation, because it actually increases the value of your product.
+When you're able to target the individual needs of consumers, by allowing them to make the tweaks that they need, and you are able to look at the tweaks that they made, and say: oh okay, this is what they want, these are the types of things we should be working on, because these are the issues that they currently have, that makes your products a lot better, because you're more able to efficiently target what the market demands.
+So, that in turn increases the value of the thing you're producing.
+My second independent point regards how this is beneficial to consumers.
+So, to things under this: first is that it that it increases the quality of the technology you are using.
+The technology you're using.
+So, two reasons why this is true.
+First is that it allows more personalized options.
+When you allow this open source technology, when you have this proliferating across the marketplace, you have, like, more development on an individual product.
+Again using the example of chrome, there's lots of different ways you can customize this program, in such a way that allows you to basically say: okay, this is what I as an individual person need.
+And maybe there's a group of you, that needs a particular thing that, generally, the market wouldn't have an incentive to provide for, because you are such a niche group of people, even at the individual level.
+So, that in turn means that the open source nature of the software allows people to tweak it that aren't it just people working in, you know, google headquarters, people that are on the ground using the product, and that in turn means that you are uniquely benefited by the increased quality of this, insofar as it benefits you as an individual.
+But secondly, that there's more collaborators on the product.
+So, when there's just, you know, more heads working together, basically saying how can we make this thing better, you are going to get a better end product at the end of the day, something that is just, you know, better at doing whatever it is designed to do.
+But beyond just the quality of the product, the price also goes down under open source software for you, for basically the same reasons that it does for corporations, because the decreased labor costs and things like that are inevitably going to, in some capacity, be transferred off to the consumer, because the corporation has a financial incentive to keep their products cheap.
+That, in turn, benefits you for what are probably pretty intuitive reasons, when things are cheaper, you have more discretionary income, you can spend that on things that you as an individual find valuable and so forth.
+For all these reasons, proud to propose, and proud to support a world that has open source software.

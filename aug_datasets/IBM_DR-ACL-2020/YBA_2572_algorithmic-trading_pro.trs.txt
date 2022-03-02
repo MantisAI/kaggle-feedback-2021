@@ -1,0 +1,25 @@
+We should ban algorithmic trading.
+Trading algorithms were made in order for big-time traders and institutional investors, such as insurance companies or pension funds, to be able to slice up large orders that they make on the market to smaller pieces and submit them strategically so as to save transaction costs.
+But all of a sudden what happens is that being faster and smarter than human traders, these algorithms started pushing human traders out of the stock market to the point that today, those algorithms account for roughly eighty-five to ninety percent of the stock exchange.
+And that's because humans just cannot compete with a calculation power and precision and speed of these algorithms.
+It just caused human traders too many losses.
+This is a harm by itself because not all traders have access to a fund that uses those algorithms, and they are now being precluded from having an equal chance of succeeding through investing in stocks, as they used to have before.
+This creates a market bias in favor of the more wealthy traders with the access to trading algorithms, and it comes at the expense of the less wealthy traders' chances of success.
+But the harms actually go way further and deeper than that.
+When the entire market exchange is dominated by trading algorithms, this hugely exacerbates the risk of having market crashes.
+Why?
+Well, crashes occur when traders and investors collectively run away from buying stocks and are willing to sell them at any price just to get rid of them, and then prices drop and we're in a recession.
+With human traders, the main concern is always from situations of public panic that will cause a chain reaction among investors, and the market will crash.
+The main way for the state or for traded companies themselves to deal with this threat is to issue calming assurances to the media and to the public and convey a confident message that everything's under control and there's no sense in panicking.
+And this quite often works for two reasons: because a, all investors want to know is that their money is safe in the long run.
+Therefore, they know that they should behave rationally and not just rush to quick decisions.
+But b, because people are aware of the risk of panic leading to a market crash, and so this means investors share some sort of collective responsibility to behave more moderately, and most times they actually do.
+But with algorithms, potential crashes will be impossible to control.
+Two reasons: first, because they respond fast, way too fast in matter in matters of nanoseconds.
+The moment that they sense that a downturn on that there's a downturn on a stock, they sell it immediately.
+Therefore, it's impossible to reason with them or to try and get them to wait before they rush to issue a sales command.
+Second reason is because unlike human traders, they are programs to maximize profit individually.
+It's senseless to talk about things like a collective responsibility for the stability of the market when it comes to these algorithms.
+So, this leads to market crashes becoming both more probable and more frequent and also a lot harder to control.
+A seemingly meaningless bad day on wall street can quickly thus escalate, for no good reason, to a huge global crisis, without anyone being able to stop this escalation from happening.
+So because of this and because this pushes small-time human investors out, not leaving them an equal fair chance to profit from trading, please propose.

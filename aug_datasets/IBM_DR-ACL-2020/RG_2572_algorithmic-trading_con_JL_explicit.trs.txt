@@ -1,0 +1,31 @@
+We shouldn't ban algorithmic trading.
+Two main arguments, first on the ways it is better for people.
+First under this I want to talk about accessibility because we think that what algorithmic trading does is that it lowers the cost of getting into trading stocks in the first place by making these things dependent on a machine and an algorithm rather than on the manpower of a broker that has to sit there and do all of this work manually.
+It lets people who have less money invest because now instead of having to pay that broker they can just give their money to an organization that runs this algorithm that has basically no overhead cost.
+It also means that they don't have to manage investment personally at all.
+Like it frees up the time since they don't have to worry about watching the market themselves.
+And since can happen less with algorithmic trading this also means that poorer people can feel more comfortable investing because the amount of risk that they're taking on is necessarily less.
+James thinks it blocks out small traders.
+First we just don't think this is true.
+Like plenty of bougie people who might think that people make better decisions than machines are still going to exist and are still going to be willing to pay small traders.
+Moreover we don't think this is an issue of affordability of technology more of skill with using it because the technology itself is very cheap once the code is written and we think it is only a matter of time before there is an open source trading algorithm or before there are individuals who are willing to build this kind of code just for like individual contracting cash.
+It just means that we're shifting the democrat demographic of who makes up these kinds of brokers.
+Now they're just going to have to be more tech savvy and things like that and we just think that at the end of the day this gets outweighed by the fact that you can get more accessibility for individuals who want to invest because at the end of the day we just don't care about the person who could have been a broker but instead chooses to be an accountant or a consultant because those people are going to be fine either way.
+We care more about individuals who previously didn't have access to the market who now do.
+We also just think that james' argument about how this is going to be more expensive is absurd.
+Like we think it is infinitely more expensive to pay one person or a couple of people who have to manually manage this kind of money oftentimes from multiple individuals and have to watch the market and make snap decisions usually arbitrarily than it is to pay for a one time program that then makes these kinds of decisions for people ad infinitum.
+Our second argument is about stability for the market.
+We think that humans, when they run markets and they run these kinds of like brokerage firms, are massively based in like flight responses.
+What I mean by this is that you will often have things like the rumor of a shifting company leadership which will cause tons of brokers to dump all of their stock in the company just because of the fear of the rumor and the fear of potential instability before this individual has even had time to prove themselves or shows actually everything is going to be fine.
+And this often us massive economic impact on the market that leads people to lose out on thousands of dollars and often screws over whatever company is now getting dumped.
+On the comparative algorithmic trading uses robots that rely on objective criteria rather than rumors: whether the company have been maintaining profit, whether they've met growth projections, things like that.
+This injects stability into the market that allows for economic growth and lets people feel like the market is safe to participate in.
+James said that you're encouraging risky trading.
+Like we just don't think that it encourages unique risky trading.
+What we mean by this is that the individuals who build these kind of algorithms get to determine the standards and get to determine like what each of these variable barriers are.
+So like maybe you're someone who is always going to be risky so you program the like machine to be risky, but we don't think that it turns individuals who are risk averse into risky investors.
+That's just not how this works.
+Like we think that just because like we think that you can still look at the outcome of the orders just because the machine is the one doing it doesn't mean you can't examine the trade wholistically.
+Like we just think that you're going to take the same kind of risks that would have been taken without algorithms because it's the people who program the machines and it depends on how they'll act.
+Like you can still consider all of the different factors that james is worried about in the programming.
+Proud to oppose.

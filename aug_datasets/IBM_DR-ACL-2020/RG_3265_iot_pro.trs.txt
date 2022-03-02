@@ -1,0 +1,25 @@
+We should limit the internet of things.
+I think what we mean by this is that we would do things like require written warning labels on products, we would require companies to produce things internet of things to give out statements on what they are doing and what their privacy laws are and how that works on their websites, and would limit communication with servers and and limit the scope of wifi connection to necessary functions of that thing that we are talking about.
+With that, two areas of clash, first on privacy.
+Companies who can produce items can track and collect your data when they are doing it for the internet of things.
+The problem here is that this deepens and exacerbates things like data mining that we are already experiencing the status quo.
+Sure it's the case that google can do things like acquire my browsing history and my location data but it is unlikely that google can do things like figure out what my grocery list is, figure out my daily regime, what face wash I use if I like recently switched or bought it at a grocery store instead of on line.
+Even in the current world of technology it is not the case that everything I do is in private.
+It is also unlikely that the majority of the sites that exist in the status quo can obtain all of that data from me without at least some consensual input.
+So for example, google will do google surveys because they recognize that their location data isn't a hundred percent accurate or you'll do things like fill out amazon thing amazon surveys so that they can recognize what things from your purchase history you're likely to buy again where you use regularly but these thing but things like the internet of things track all of this automatically and don't require your consent to send it to other people primarily because this is often written into the contract that you signed when you buy them.
+So if you have a refrigerator that tracks what you've used up that's data that goes away goes to other groups.
+This is either used by the companies themselves or sold to other companies who like specialize in data mining.
+The problem goes further though because a lot of these companies can also eavesdrop or spy on your literal person and the problem is that this is like first a gross violation of privacy intuitively but if you need a rationale for that recognize that individuals value privacy as a right because it allows them to actualize as they prefer.
+Sure we can imagine a world in which people just saw each other naked all the time and no one cared because we were desensitized to it.
+The problem is that people do in part because we see our daily actions and our personal lives even if it inconsequential to the majority of other people as something that is important in central to ourselves.
+So something is embarrassing but I think I'm being spied on even if I don't care who's spying on me even if it's someone who's a million degrees separation from me I'm still likely to censor my own behavior because I'm embarrassed.
+We think that privacy is integral to personhood, so when things like connecting to the internet are able to strip that away from us entirely we care.
+Our second argument is about security.
+Recognize first that the internet things is infinitely more easy to hack.
+The current rush to release objects that are connected to the internet is extreme but very few companies are able to adequately secure it.
+For example just last year an entire power grid was shut down in ukraine that put a quadrant out for a couple of nights for electricity.
+This was because even though manufacturers know how to connect things to the internet they're not completely clear on how those connections intermix especially since it is not the case that it is enough to just secure the item that you are selling but because everything is connected via wifi if any one thing is unsecured you are able to get into everything on like everything that you own and everything about yourself as a hacker.
+This is why things like air gap products in the status quo is so important because even if one thing gets penetrated like my laptop it's not connected to the rest of my life so that person can't do things like control my light bulbs or my stove or other things that could be really dangerous to myself.
+But finally when our third area of clash this has massive negative externalities.
+When companies can decide what they're going to make their systems compatible with they can force us to buy different goods dependent on that, which to problematic monopolies and a lack of consumer preference.
+Proud to propose.

@@ -1,0 +1,33 @@
+We should adopt open-source software.
+Open-source software is software that provides the rights to study, change, and distribute the software to anyone for any purpose.
+It's software that can be edited by people that haven't created it.
+It's software that can be changed through collaboration and we think it is the future of programming and the future of technology.
+So there are two big benefits that we see through open-source software and why we should adopt this type of software.
+The first is that it increases collaboration which we think leads to be better products and the second is that it increases innovation in kind of a distinct way.
+It's not just that it increases innovation in the planning stage, in the creation stage of the software, but that down the line having open-source software opens doors for more innovation because you have a platform that you can edit and you can make changes to in the long run.
+So first on collaboration.
+When software is created for the intention of sharing and building off of the platform, we think that it's built in a spirit where you're more likely to get collaboration.
+It fosters an environment of critique and growth.
+It fosters an environment of openness in criticism.
+To say that this software is something that can be appended by anyone that has the technical skills to do so and that they can make it better and they can make improvements on it shows an openness of development that we think is more likely to foster collaboration between people of different backgrounds, between people who are in different geographic areas.
+We think that when you have a this also means that you are more likely not just not to take ownership of the software, but you're more likely to invest deeply in the software because you don't have this fear when you're developing and when you're when you're putting your ideas forward that someone is going to take your ideas and profit off of them and leave you behind.
+We think that tech is a world that can be incredibly cutthroat in the status quo and because of that people are often unwilling to share secrets and ideas between each other.
+So this is not only collaborative in a in a normative way but also in a comparative way.
+It's much more collaborative than what you get normally in the tech world in the status quo.
+We also think it's easier to actually get collaboration when anyone around the world as is able to tinker with the software.
+We think this leads to a few things.
+First, you get better software because you just have more technically skilled minds on the job.
+You can put this idea out to the public.
+You can put this idea out on forums and with other technical innovators and you can say this is what I'm working on help me build it, help me make it better.
+We also think that the software is more likely to solve problems that are currently being ignored because you're more likely to get fresh perspectives into the development process.
+You're more likely to get people that may not have the skills to build an entire platform by themselves, but have the skills to build key parts of a platform that really improve the software that's being created.
+Finally on innovation.
+After the software has been released to the public you're much more likely to get innovations that grow off of that single platform because in the status quo, for example, when microsoft releases its software you can't tamper with it.
+You can't tinker with it.
+You can't change microsoft word and then re-fashion it for your own purposes.
+We think that when you have open-source software it's easy for anyone to make changes in order to improve consumer needs which means that when the software goes out there, you don't just have a company that's trying to continue to sell and then makes exchanges based on the idea to sell, but it actually can change based on what consumers need.
+If consumers of this product needed to behave in an entirely different way, people can come together and make those changes.
+There's a capability of taking a software framework and building it out to fulfill new purposes.
+So in this sense open-source software creates more innovation.
+Not just that it comes up that people come up with better ideas to begin with, but it also means that people are able to branch off of ideas that they have from the software they're using and they don't have to go through and build an entirely new framework just to mimic what is already being done through the software.
+Because you get more collaboration, because you get more innovation, because you ultimately solve for the consumer much more with open source software, we believe that we should adopt open source software.

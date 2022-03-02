@@ -1,0 +1,36 @@
+We should adopt open-source software.
+So by this we're arguing that governments, businesses and consumers should favor open-source over closed-source software.
+Open-source software are basically programs that have their code that underlies them available for anyone to read and build upon and access online.
+Whereas closed source programs are those which require corporate licensing or have secretive software and programming that underlies them.
+So an example of this that many people might be familiar with is that open office is open-source and microsoft word is closed source.
+Anyone can build a better version of open office but you need a license from microsoft they would never get out to anyone to build a better version of microsoft word.
+Three arguments in favor of open-source software.
+The first is security.
+Basically, open-source software does exactly what it says on the tin.
+You can go into the code and look at what it does and see if this is safe for your company, your government or your personal use.
+Now it may be true that many people aren't going to go and read through all of the thousands of lines of code that go into open office, but the fact that you can means that there's nothing hidden in there.
+Someone has the ability to do this and many people do because they like to make their own versions.
+So if there was some sort of hack or back door in open office that put your computer at risk people would quickly find out.
+On the other hand, a program like microsoft word could have a hack or a back door in it and you would never know because only microsoft engineers are allowed to really take a look at it.
+This means that companies can take advantage of you by including backdoors or other potential vulnerabilities into their software that put your security at risk.
+But I'd also like to point out that governments can take advantage of this.
+Google came under fire recently for including a way for the chinese government to spy on their citizens in some of their closed source software.
+This could never happen with something open-source like firefox because if there was some sort of chinese government hack involved everyone would see it and be able to speak out against it.
+Whereas with the google incident the only way that people found out was because of a leak.
+So we think that ultimately open-source software is more secure and that there's more accountability for the creators.
+Our second argument is about money.
+This is particularly true for governments.
+It might be nice if you or I can save a hundred dollars by using open office instead of microsoft office, but ultimately this really adds up for corporations and governments.
+In particular, if you are buying a hundred computers for a public school and every microsoft word license costs a hundred dollars, you can save ten thousand dollars by using something open-source instead.
+That might mean buying more computers or otherwise increasing access to resources for your students.
+So we think that ultimately for governments which had an obligation to use their money efficiently because it comes from the taxpayers, it's very important to use open-source software whenever possible because it's so much more effective in that respect.
+This is also true for corporations as well.
+If you can save money on your computing software then ultimately those benefits get passed back on to the shareholders.
+And in the US at least, and I believe other countries, there is a legal obligation for companies to do what's best for their shareholders.
+So at that point they ought be using open-source software.
+Our third and final argument is about why open-source software is part of the common good in a way that closed source software isn't.
+If someone writes a really good bit of open-source code it can be shared for years to come and everyone can improve and learn from it.
+So firefox, for instance, has contributed many advances to the internet as a whole because it's open-source.
+If something is closed source then it just goes away whenever the developer decides to stop supporting it and it doesn't ever benefit the commonwealth in the same way.
+For all of these reasons we should adopt open-source software.
+Thank you.

@@ -1,0 +1,37 @@
+The motion for today's debate is that we should ban algorithmic trading.
+What we mean by this is that we would no longer allow for companies or hedge funds or mutual funds, to use, or any kind of personal portfolio, to use algorithms that would say sell when the stock drops by ex percentage, or anything similar, to sell off large amounts of stock or manage each other's stock.
+Instead we would prefer for it to be done basically the way that we've done that up to this point, in which individual people decide when to sell stock based on trends that they interpret personally.
+Two main areas of clash: the first on the way in which algorithmic treating is prone to bugs and the impacts thereof.
+So here's a couple of examples: commonly in algorithmic trading you're taking an integer and your rounding it to a decimal.
+What happens then?
+Or you end up in situations where you have a negative interest rate, or maybe you just program something incorrectly, or maybe you just didn't test every kind of edge case, such as the situation in japan, where we all were like " oh, they're never going to put in place negative interest rates ", but joke's on you, that's exactly what they did.
+But since the algorithms never actually accounted for a moment in which negative interest rates would exist, there was no way for them to operate in that world and the ended up being completely wild.
+So we think that when these kinds of issues arise, and we think they're fairly common, it's the consumer first who owns that portfolio who gets kind of stuck and gets in trouble because of it.
+Because suddenly they are probably down large amounts of stock at little profit to like massive losses, and now this money that they put into it has essentially been wasted.
+But there's also this like larger impact in terms of big companies.
+Because recognize that when you're selling off tons and tons of stock at a time, what you're messing with is that is is the future of these companies and what they own.
+So like when people have pension pension funds that are bundled by large corporations, they lose them because those corporations fail.
+Or when you end up with like very large amounts of stock being sold off and it leads to shifts in the market, what happens then is that you scare investors away and they start pulling out.
+Because they're seeing that: " look the market is incredibly unstable.
+We don't know what's going to happen next. "
+And so rather than risking keeping their money in those areas, they start pulling it all out while they can still end up ahead.
+This is incredibly problematic insofar as it crashes companies.
+Because suddenly they don't have any of the stock left or not enough that is like actually bought.
+It makes their stock very very cheap when it's flooding the market, because everyone is selling it off.
+And this can also affect banks because a lot of banks are actually investing the money.
+And so we saw this happen in the great depression, when consumers got really really nervous and started pulling all their money out of banks, and that banks just didn't have all of that money.
+Because so much of it was invested.
+And what this essentially creating is a world in which governments have to try and bail this out.
+Unfortunately governments don't always have that money, and so we think that this is a world we ought not be risking.
+Our second independent point has to do with volatility.
+So a lot of, so let's like bring up another example: you have lots of companies that use the same general algorithm for when they sell their stock.
+AKA when the when the stock falls by ex percentage, that's when you sell.
+So one company has it at two percent another has it at three percent, so on and so forth.
+So the first company with the lowest barrier to sell sells it all off as soon as it hits below that barrier, because that's what the algorithm is programmed to do.
+This triggers the next one because when you sell a lot of stock you drop the price further, which would activate the next barrier.
+And as well as like leading to the flight response in which investors see this trend and say: " oh no.
+Like even if you're not using an algorithm you can't leave it there. "
+This cycle continues and essentially you end up destroying companies because the stock value becomes zero as more and more floods the market.
+This also has a more pernicious effect, because if the first mover is the one who wins the above described cycle, than everyone wants to be that first mover.
+It means you're going to have more and more algorithms that are setting you lower and lower barrier to sell, leading to an endless cycle in which there is never a stable company to invest in.
+For these reasons proud to propose.

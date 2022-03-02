@@ -1,0 +1,37 @@
+I stand in firm opposition to the motion we should adopt open-source software.
+Given the way that james models the motion, he suggests that governments and large corporations should adopt open-source software in their average daily operations.
+This is incredibly problematic as open-source software is considerably less secure and the increase usage of open-source software leads to insolvency in many software markets in the long term.
+Because we think that progress is best done through a market mechanism, we stand in firm opposition.
+Two arguments.
+First off is safety.
+Now drew suggests that open-source software is actually more safe than closed-source software.
+I want to first address the claims he makes before making some of my own.
+He suggests that malicious code can be slipped into any program through closed-source software.
+First off if you look at the contract between large corporations, governments, and software organizations, you'll see that they have an understanding of the code.
+They have absolute disclosure of the source code of many of these companies.
+What this means is that malicious code can't simply be slid into these closed-source software large corporations and government can always check if they're being scammed or if a code would if certain code would be malicious.
+What's important is that open-source software is incredibly dangerous.
+Now obfuscation is incredibly important to the software process.
+It is important to hide your code to increase the safety of it.
+Understanding the source code makes it considerably easier for hackers to find the best way into a particular system.
+Knowing that there's a certain vulnerability that they forgot to update a certain line of code means that hackers can find ways into systems that they would never be able to access otherwise.
+This is incredibly problematic having access to every single line of code will inevitably lead to increased identity theft, increased hacking, and generally less safety among the average individual.
+This has the immediate effect of just economic loss.
+We think crime is bad for the economy, it leads people having to dispute things on their credit card, leads to essentially theft and a loss of money from the taxpayer because identity theft is usually covered by the government.
+Generally this will be bad for the world as at large but secondly a decrease in trust among the average consumer who sees more identity theft and the software corporations means that people move away from technology.
+This is problematic as this makes the economy considerably less efficient and makes people less willing to adopt new technology which is the way that we get progress.
+Things like GPS which literally tracks you location have also led to a massive increase in efficiency and a decrease in death as people know where they're going and understand the terrain considerably better.
+We think that they should be adopting new technology and open-source actually harms us.
+My second argument is about efficiency.
+We believe that open-source software is considerably less efficient as there's less money for good software.
+People acting of their own accord, acting with no money behind them, does not lead to the best software possible.
+Market incentives means that rather than code or and programs being designed for the programmer, they're designed for the average consumer.
+We think this is the best way to have an efficient market and the best software possible.
+Additionally there are fewer knowledge bases for open-source software particularly knowledge bases that cater to the average consumer, they usually cater to programmers.
+This is problematic as it makes it so people cannot use software like microsoft word which they would otherwise use on a daily basis for their business.
+The third argument is that there will be a long term down a long term downturn in the amount of software overall.
+Open-source software relies on the infrastructure from a closed-source software overall.
+Java created by oracle is important for a huge number of programs.
+We think that flash player and other plugins are important and were all created by close-source corporations.
+The destruction of these foundation means that technology cannot adapt and progress in the future.
+As such, I stand in opposition to the motion we should adopt open-source software.

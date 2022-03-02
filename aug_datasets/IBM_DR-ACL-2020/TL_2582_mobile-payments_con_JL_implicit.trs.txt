@@ -1,0 +1,24 @@
+We should not adopt mobile payments.
+When we're talking about mobile payments we think we're talking primarily about payments done through mobile services on cell-phones, whether it's direct transfer, cash, through these cell phones or through other types of credit services, we think that this is simply a less secure system of doing business, and we think from that come a lot of problems with mobile payments that are too difficult to overcome and meaning we shouldn't adopt them.
+So that's what we're going to explain.
+We're gonna explain why this isn't secure and then we're gonna talk kind of about the effects of that point.
+So why is it the case that these are less secure?
+Transactions online through mobile services are prone to hacking.
+Especially, well, especially in comparison to cash or, cash, which obviously cannot be hacked.
+If you make a cash transaction, you're not giving up any information about yourself, you're not linking other funds to that cash, this is simply a better system.
+Or credit cards which are also prone to hacking, these things are possible, but because credit cards have such substantial financial backing, there are huge corporations behind these things and immense amounts of PR pressure on these corporations not to allow leaks of information, not to allow hacking to occur, there's infrastructure to protect from hacking for credit cards in a way that doesn't exist for mobile payments.
+Most mobile payment platforms are fairly small or not adopted by a large amount of people and because of this they have a limited amount of resources to prevent hacking.
+And this causes a problem because as more people adopt this platform it is more difficult to scare to scale up your process of protecting from hacking, than it is for hackers to see this growth and choose to target your site.
+And don't don't be mistaken.
+It is an incredibly enticing targets for hackers to go to.
+Mobile payments can be connected to to debit accounts, can be connected to bank accounts, can provide with them a a large amount of information associated with those making the payments.
+And as this is the case, we think that these are substantially high risks high risk forms of transactions as far as hacking is concerned.
+So given that this is the case, we we think that more adoption of mobile payments only makes it more likely that this type of hacking is going to occur.
+That as we choose to invest further into mobile payments, because there is competition between many platforms, unlike in the field of credit cards where there's less competition between cards and these are largely are mostly large companies backing these things rather than start-ups or smaller corporations with fewer resources at their disposal.
+Given that comparative difference, we think that it is incredibly likely that as more people adopt mobile payments there will be more of a diversity of mobile payments and these businesses won't be able to scale scale up at the pace that prevents substantial security risks from being posed.
+So given that there's this security risk associated with mobile payments, we think it is likely that people are not going to want to adopt these things, we think that people are reasonably afraid of putting so much information into services that are so easily can so easily be targeted by hackers and hacking groups.
+And I think that this means that people themselves - customers - will not adopt these forms of mobile payment and furthermore, in order to have this type of mobile payment system, it needs to be a two way street.
+You need to get businesses to want to adopt this as well.
+And given those substantial risks, we think that businesses, if they were to take on this mobile platform, also have substantial PR risks associated with doing so, and and because of that we hear that they are, and also possible legal violations, if information that they are responsible for gathering and maintaining is leaked or is lost through hacking.
+Given that this is the case, we don't think that consumers or businesses are entirely willing, nor do they have the desire to adopt these mobile payments and because of the security risks that go along with that hesitancy of moving into the market, we simply don't think that it is at this moment a wise investment.
+And because of these reasons we should not adopt mobile payments.

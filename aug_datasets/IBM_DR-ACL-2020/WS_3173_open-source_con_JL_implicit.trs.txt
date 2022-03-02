@@ -1,0 +1,26 @@
+I'm proud to stand in opposition to the motion that we should adopt open source software.
+Our first independent point, which I think runs directly counter to a decent portion of what gov tells you in terms of benefiting the common good, is that open source software mitigates financial returns for business, and a such mitigates the advancement of technology.
+The way that research and development works at both small and large firms is that they are only able to, you know, get the capital to invest into research and development because they can then later make that money back.
+You know, repay the people they took loans from, please the shareholders, you know pay the paychecks of the people that work for them.
+There has to be a significant return on investment if you're going to invest money into making groundbreaking technology.
+The problem then is with open source software there there isn't that capacity to make all the money back.
+On the margin, certainly, it's a lower investment because it's communally put together and you can make some money based on the advertising, but you don't make the large amount of money for a product you would actually sell.
+And that's a problem then, because it means that the change is very incremental.
+Often this is just like individual coders just going in and saying like oh, here's a thing you could tweak, a new feature, something like that, but it's very slow change.
+Whereas if you go the traditional route of research and development, and getting large amounts of money back on the product in exchange for what you put into it, you make much more you know you make larger leaps essentially, because you're able to funnel huge amounts of research into developing this product.
+This then, even if the individual source code is an open source, represents greater advancements in technology, because people can look to this sort of thing, see how it works, and even if they don't understand the bits and pieces or don't see on the surface the bits and pieces that make it tick, you can reassemble something like a word processing software, you can reassemble most types of software.
+And we think that significant advances then in the software industry can be driven by large scale research and development structures.
+Our second independent point, and this runs counter to a lot of the earlier analysis put forward by government, is security.
+So, specifically government tells you that security is better with open source software because people will identify problems quicker, because they can look into the source code and say oh, x person put a back door in or you know whatever.
+I think the problem here is a bit of weighing.
+Because it's also easier to implement these types of problems in something that's open source, you know it is just easier to put the back door in when you can see the source code right there in front of you, and then distribute the malicious version widely.
+The problem then is a weighing issue.
+That is, weighing you know is simplicity of actually creating malicious software, versus simplicity of mitigating the spread of malicious software.
+I think the problem here is twofold.
+One is that when it's not open source software, there's usually a serious financial incentive on the part of an individual firm to invest lots of money into basically a campaign to tell people , you know, there is a problem here.
+I don't think that always happens with open source software, because they're a, isn't that financial interest but b, because it's not used as widely and then is less likely to be picked up by something like a news organization.
+I think the other problem though is that people often aren't willing to listen to the red flags and sort of like whistleblowers that are discussed by side government.
+If a couple tech bloggers say hey, this version of you know whatever product you're using might have an issue with it, people that don't read those tech blogs aren't going to see these red flags.
+And as such, I think it is very easy to distribute malicious software, when you have open source software making it easier to actually create the malicious software in the first place.
+Given that then, I think there's more harms on the aggregate because of the ease of implementation, as opposed to the ease of calling out.
+Proud to oppose.

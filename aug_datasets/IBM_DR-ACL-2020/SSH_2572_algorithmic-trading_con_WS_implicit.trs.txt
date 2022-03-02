@@ -1,0 +1,32 @@
+I stand in firm opposition to the motion we should ban algorithmic trading.
+Will fundamentally misunderstands the purpose of markets and the goals which economists have laid out for over a century now.
+One overview before three arguments for why we should not ban algorithmic trading.
+First the entire idea that this is prone to mistakes that doesn't have the human element is non unique.
+Recognize that markets already have things like limit orders where if the value of the stock goes too high or too low automatically the broker buys or sells a certain stock and there are also stop orders where if a certain percentage of the stock essentially goes away if the value of the stock decreases by a certain amount then it's automatically sold.
+All that algorithms are are limit and stop orders with profoundly more nuance.
+Three arguments for why nuance is good essentially.
+First algorithms are the goal of market based economies.
+We would say because there exists theories like the one mutual fund theory which says that in a world with perfect information everyone would hold the same stock algorithms can easily control and define a market and create an efficient market.
+The goal of the market economy is to distribute wealth effectively is to allow individuals to access large amounts of capital and for the investors of that capital to get the money back.
+In a perfect world every stock would have about eleven percent return per year.
+All bonds would have about a three percent return per year.
+There would be essentially no risk to investing in the stock market.
+The issue is in the status quo what happens is that certain actors are able to take advantage of misallocation in the market.
+They're able to take advantage of human error in the market to get a huge payday.
+We would say that hedge funds largely are cash transfers to the wealthiest individuals the funds which analyzed markets and are able to take advantage of human error just give money to the richest individuals.
+But a more efficient market as defined by algorithms would create far more wealth distribution and allow all people to access the same amount of wealth increase every year.
+This would first lead to more money going to poor people who can't otherwise access hedge funds but secondly stop inequality.
+We would say that inequality is a harm in and of itself.
+As large amounts of inequality allow wealthier people to invest more in politics, invest more in their daily lives and have less empathy for lower and middle class people.
+As such even if having algorithms only took money from the richest people we would still defend them.
+The second argument is that this leads to a more stable market overall.
+As I already discussed this could easily reduce risk.
+If at all times any misvaluation in the market is constantly being corrected by robots with huge access to information there would be very little risk in the market.
+Buying at a particular time of day won't lead to a huge loss.
+Inherent issues in the market where individuals buy small firms in january and sell them in december with no clear logical pattern would stop being a prevalent issue.
+As such without the inherent cognitive biases of humans and without the strange pricing allocations which we think cannot be tracked by by human entities we would say that introducing algorithms in the market creates more stability and less error.
+This means it will be less prone to crashes and individuals will be less prone to losing the huge investments in the market and essentially having a massive decrease in quality of life.
+Now the third argument is that this will lead to less insider trading.
+We think a market dominated by algorithms makes it incredibly clear when a particular individual is using insider trading into insider information to their own advantage.
+As markets are further controlled by algorithmic trading security organizations finance financial organizations can pinpoint the individuals who use insider trading more efficaciously and stop these unjust increases in wealth from occurring.
+So proud to oppose.

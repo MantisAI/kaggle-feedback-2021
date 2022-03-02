@@ -1,0 +1,29 @@
+We should further exploit wind power.
+In a world that's becoming increasingly dependent on energy consumption, the question of what's the smartest way to produce such energy gets the front stage and dominates the schedules of scientists and leaders from all over the world.
+We're going to argue that wind power is the ideal solution, considering all the existing alternatives.
+We're going to examine this on two fronts.
+The first front is cost efficiency, and the second front is sustainability and environmental considerations.
+Starting off with cost efficiency: so, one of the first things that they teach you at in economics class is that in order to calculate cost efficiency, you need to take the revenues and subtract the cost.
+This is your profit.
+In this case, revenue is the amount of energy produced, and the cost is the money it costs to produce this energy.
+So the next thing they teach you is that in order to calculate the cost, you have to look at two things.
+First, there's the fixed costs, meaning the initial cost of designing and building wind farms and so on.
+And the second thing that you need to look at is variable cost, meaning the accumulated cost of the raw materials and wages that you need to pay to produce more and more of your products.
+So, let's look first at the cost of wind power.
+When you look at the fixed cost, we see that they are very, very cheap because the technology of producing energy from wind is quite simple compared to the alternatives, such as energy that comes from fossil fuels, gas or nuclear reactors.
+The variable cost is practically nonexistent.
+Wind is free.
+When compared with the alternatives, again, that we've mentioned, they use materials that are rare and expensive.
+Natural gas and oil and uranium, these things don't grow on trees.
+It takes a fortune to locate them to begin with, and then to continue mining for them and supplying them, so it's way cheaper this way.
+There's a valid concern regarding weather dependency because, with winds, we can't produce electricity around the clock whenever we want to.
+This can be solved by adjusting our wind farms to only operate during the times where we saw that, on average, there's sufficient wind to justify operating it, and have it shut down automatically when there isn't enough wind.
+This way we don't lose any money.
+The second criterion is the sustainability and the effects on the environment.
+So the first obvious thing to say here is that wind is renewable.
+We can never run out of wind.
+And the second issue regarding regards pollution.
+We recognize that wind turbines have some effects on the environment.
+However, compared to the alternatives which are, you know, the smoke emitted from fossil fuels' reactors and nuclear waste from nuclear reactors or, you know, droughts and floods due two hydroelectric dams, we believe that wind is significantly less harmful to the environment.
+Another thing to add here is that once you factor in the harms to the environment as negative externalities into the calculations of cost efficiency that we discussed earlier, wind farms, like the the cost efficiency of wind farms increases even more, because the costs are so significantly lower that even if the revenue, measured in like joules of energy, is not as high as other alternatives, the cost is so significantly lower that, on balance, it pays off more.
+For all of these reasons, we are proud to propose further exploiting wind power.

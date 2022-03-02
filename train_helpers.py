@@ -99,7 +99,7 @@ def train_model(model, config, training_loader, train_df, valid_idx, testing_set
 
         model.eval()
         eval_score = evaluation.evaluate_model(
-            model,
+            model,  
             train_df, 
             valid_idx,
             testing_set, 

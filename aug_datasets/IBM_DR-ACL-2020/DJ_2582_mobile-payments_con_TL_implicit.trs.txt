@@ -1,0 +1,18 @@
+We should not adopt mobile payments because while mobile payments things like paypal or venmo or whatever, while these things may be more convenient they come at an increased safety risk and when the trade off is convenience verses safety you should probably defer towards safety.
+So let's talk about why we think that this trade off is a fair one and why we think that hacking and a lot of other there's a lot of unique problems to mobile payments that are quite bad for security purposes.
+So first let's talk about trade offs and convenience and things like that.
+Keep in mind that mobile payments are in no way necessary.
+It is not necessary to do something in an easier way.
+In while being able to just take out your phone and send money to someone else is obviously nice and convenient, it's not a necessary thing.
+We still have cash.
+You could still give people cash if you like go to a bank or things like that, you can write checks, you can do more secure forms of transfers electronically like wire transfers or other kinds of big transfers like to direct deposits and things like that.
+The idea of mobile payments that are flexible to your phone and things like that are not very necessary.
+You simply don't need them.
+On the other hand, safety is very important definitely something that you if you for example have identity theft occur in that this could be very bad.
+It could be very bad for your credit score.
+You can lose a whole lot of money as opposed to it.
+And there's there's not always a whole lot of things that you can do about it so it's very severe in that regard.
+And I think that mobile payments create a definitely an increased risk for this because as you see like millions of millions of people using services like venmo, they become much more of a target for hacking and this is especially bad because these services have a whole lot of information about you like venmo knows my bank information, it knows like my bank account information, it knows some of like my card information, it knows a lot about my identity, so in the event that you get there's like some kind of hacking that's done, this means that millions of people in one swoop can have their identity stolen and that's like a big problem.
+These things simply aren't as true of of the alternatives like obviously cash can get stolen, obviously banks can be stolen from as well and things like that, but as far as the degree of risk the decentralization of risk, all of that's just going to be more severe when you're talking about mobile payments.
+So that's bad because when people are going to be on like as far as like not adopting these payments there's no real reason that you need to have them, and they come with more risk.
+So for all those reasons, we shouldn't adopt them.

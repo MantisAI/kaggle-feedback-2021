@@ -1,0 +1,29 @@
+Open source software is advantageous.
+So, right now in the status quo, you have two types of software: closed source, where one company owns the code, imagine microsoft windows as an example of this, and open source, where the code is freely available to anyone who wants to use and modify it.
+Think about linux as an example of software that works like that.
+And by advantageous, we mean that although there are obviously some pros and cons to each side, we think that widespread adoption of open-source software would basically be a good thing.
+Three arguments.
+The first is that open-source software is more accessible to more people.
+What does this mean?
+With closed-source software, companies are able to charge much higher prices for their product than they could for something that was open-source.
+Now if you think about something like microsoft word, it costs about a hundred dollars, and many people around the world simply can't afford that product.
+If you think about computer users in a country like brazil or south africa, where incomes are much lower than they are in britain or the united states, people there will probably never be able to access these products, whereas a product like openoffice, which is an open-source alternative, are much more accessible to these people.
+You see that open-source products sometimes cost money, but generally a much lower rate, because anyone can get the code and make their own version, and other times are free, which is great because it means that people who are the most needy in the world, low-income people, people in the developing world, can access the software.
+Which means that people can develop new skills which will let them succeed in the globalizing economy.
+We think that, you know, if schoolchildren in countries like brazil or like india are not able to learn about how to use computer software because it's too expensive, that that will prevent them from succeeding as computer skills become more and more important to the global economy.
+So we think that this access is really great for the developing world.
+Our second argument is that this limits the power of developers.
+Recognize that if you have closed-source software, there's only one group of people, the developer, who can help you to use that software.
+So if you think about say, the US military using software that's developed by I don't know, lockheed martin, if there is a problem with that software, the only people that they can go to are lockheed martin which means that, first of all, lockheed is able to charge basically as much as they want, because once the US government has adopted the software, it would be very expensive to change to something else.
+So lockheed has a lot of control over them and can gouge prices.
+But on top of that, you have very sensitive data and now, if there's ever a problem accessing that data, you need lockheed people to be able to go in and retrieve that data for you, which we think compromises the ability to protect that.
+We think that, for instance, if another country were to hire a foreign firm and to use their services, that this would compromise their security, whereas with open-source software, someone internally in your government or your corporation can decide what software to use, can build it up from the code themselves, and no one from outside can compromise your data or hold you hostage with high prices.
+So we think that this is good for both governments and private firms.
+A last argument is that open-source software is more adaptable.
+Because anyone can contribute, you have a much deeper talent pool working on a given project.
+We tell you that you can also reuse and recycle parts of old software in order to create new software rather than starting over again at ground zero.
+When you think about closed-source software, if microsoft has a product and google wants to make a similar product, they can't just start at what microsoft had and then build up to make it better.
+They have to begin again at ground zero.
+Ultimately, we think it will be better if more companies could reuse and recycle each other's software, that this would propel faster development and more flexible software that could address more diverse problems.
+So because it promotes access, because it limits the power of the developers, and because it's adaptable, open-source software is advantageous.
+Thank you.

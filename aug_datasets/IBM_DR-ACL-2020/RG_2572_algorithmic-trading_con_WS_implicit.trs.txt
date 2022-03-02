@@ -1,0 +1,27 @@
+It's important to note that all of the issues will brings up are incredibly unlikely given that people don't have an incentive to write faulty code that would mess up with the economic market.
+He tells us things like oh these algorithms are uncontrollable.
+This is silly.
+They operate numerically so sure the concept might be that it's going to be as erroneous is the person who wrote it but I'm going to have much less chance of messing up this one algorithm that probably gets checked by multiple other people than I do by hand checking every stock myself.
+So in the end the comparative will always be something that is necessarily more efficient, more controllable, and more specific versus individual people who the hell knows what they're thinking and who the hell knows what their mental state is at that moment.
+If we think that at the point that this is true you're actually going to have a better reaction to volatility because you're you're going to be able to manipulate the algorithm rather the individuals who have to respond and you're going to have a unilateral response rather than millions of people tapping buttons randomly.
+Will also never actually explains any of his impact.
+What exactly might happen if there's volatility in the market and algorithms are running the entire thing?
+We tell you it's not volatile.
+It it like decreases the volatility.
+He never actually tells you what happens and therefore we've already won.
+Three main areas of clash.
+First on how we already have these algorithms built into the market so all you're doing is making more efficiency.
+Currently in the market we use things called limit-order robots where if stock drops by x percentage or rises by x percentage the algorithm automatically buys or sells the sells the stock.
+All that we're doing on our side of the house is improving the algorithm, making it better automated, and thus making this more efficient.
+We prefer this because if we're going to have a system in place regardless and the motion doesn't say we're removing the system, we might as well make it as good as possible.
+Our second area of clash has to do with why it helps to achieve the perfect stock system, because in a perfect world all stocks are perfectly priced and thus you wouldn't have massive losses or gains.
+For example it's a problem that if I buy a stock in the morning and then suddenly it drops dramatically I'm going to be out a lot of money eventhough likely it's not if you normalized this across the day it would be somewhere in the middle.
+Robots can do this in a way that humans just can't.
+You're still going to have a market increase because that's what the market demands in order to continue having any kind of start-ups or increased business ventures, but these decrease but this decreases the risk and the volatility without screwing over individuals who happened to sell in the morning rather than in the evening.
+Our third area of clash has to do with why it decreases deadweight loss.
+Currently we spend billions of dollars on people looking for inefficiencies in the market.
+Not only are these people much more prone to error than an algorithm, but it also makes a higher barrier to market entry for small businesses because we're spending billions on these individuals and now it becomes much more expensive to IPO your IPO your business in the first place.
+We think that automatically makes it cheaper and more businesses are likely to enter if you decrease this barrier and honestly we don't and it frees up these economists to go do something else, build more algorithms, like work in accounting, etcetera.
+Op might come up here and say but oh their salaries are dropping.
+In the end we're fine with them earning sixty thousand dollars rather than a hundred twenty thousand as long as it means you're going to have more small businesses capable of entering the market and stimulating the economy.
+For this reason, proud to oppose.

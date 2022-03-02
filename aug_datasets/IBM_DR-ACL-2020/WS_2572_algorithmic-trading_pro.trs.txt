@@ -1,0 +1,32 @@
+I'm proud to stand in proposition of the motion that we should ban algorithmic trading.
+Three independent points: first that algorithms can be uncontrollable and are much more subject to error than human trading.
+The way that algorithms are often constructed in the financial industry is to automatically make trades based on certain inputs.
+So, a certain thing happens in the market and the computer sees that is a, you know, positive or negative signal for an individual investment, and then they will buy or sell that, you know, stock or whatever, based on that market cycle.
+The problem is that these algorithms are designed by humans.
+They are, you know, from a design perspective, as subject to error as a human is.
+But because they run automatically, they are less adaptable to changes in the market that are not commonplace.
+That is, you know, if you were playing around with some market variable like, say, you know, sales of cheese for a dairy company, you might generally say: if more people are buying cheese, you should invest in the dairy company.
+But some, you know, small unpredictable left-field thing that probably isn't going to happen and the average person might not think of can be, you know, be overlooked in the designing of the algorithm.
+And as a result, if that thing happens, that algorithm can make some pretty disastrously bad choices.
+Now, notably, this would just be a problem for the investment firm, you know, if you think about this straightforwardly, but the problem is that that's not always true.
+Depending on the investment firms, really important things can be connected to that firm's success, you know, people's retirement funds, people's, you know, mortgages, things like that.
+This is really important, then, because you can have pretty profound impacts on the economy by faults in your algorithms.
+And if this happens repeatedly across multiple firms, as it has on occasion, this can create some really serious issues for the economy.
+Our second independent point is that algorithms enable rapid trading that this can lead to flash crashes.
+So algorithms, you know, quite obviously, work a lot quicker than humans.
+They're automatic and as a result, they can make trades very, very quickly.
+The problem is that humans have to, you know, take a look at these and make sure everything's on the right track, and obviously humans have a little bit of a delay when compared to the speed of a computer.
+This, in turn, leads to flash crashes, which are rare but are profound.
+You know, sometimes over the course of like a twenty minute span, a massive chain reaction in the ways that these algorithms interact with each other can just have horrible, horrible impacts on the stock market.
+People lose millions of dollars.
+This is a problem.
+It doesn't happen with humans as frequently because humans work slower.
+You can, you know, react more rationally and more level-headedly when you have the capacity to just sort of slow things down and see what's going on in the market at the time.
+But because the algorithms keep moving and the humans have to figure out a quick way to intervene, the response is often imperfect, and as a result the crash can have a much more profound impact on the market.
+Our third independent point is that high frequency trading can actually kill small firms, and that leads to consolidation in the industry.
+What we mean by this is that algorithmic trading is very, very dependent on hardware, not skills.
+So, whereas small firms frequently used to be able to compete well by just having a small group of people that were very qualified at what they did and were smart, they could usually get by on that.
+The problem though is that this becomes less and less of a possibility when high frequency trading makes your firm's success contingent upon the quality of your hardware.
+Someone with just better wiring for their computers, that can act faster and make deals at a quicker rate, snatches up all the capital on the market, leaving smaller firms to struggle.
+This leads to consolidation in the industry, which is a problem, a, because larger firms have more leverage over their clients and can therefore be engage much more abusive and predatory practices, but b, because killing the small firms decreases competition in the market and leads to more or less monopolies, if not cartels, at least, that are also harmful for the ways in which that industry interacts with consumers.
+Proud to propose.

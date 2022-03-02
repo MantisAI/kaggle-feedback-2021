@@ -1,0 +1,38 @@
+-limit genetic testing.
+What we mean by this is that we would still allow genetic testing for direct disease identification, to identify carriers, like if you're going to have a baby and you know you have a history of cystic fibrosis, we would still want genetic testing in those situations but we wouldn't allow like pervasive general genetic testing that scans the human's entire genome and then displays like risks and things like that, which is a form of testing that has gone grown increasingly popular with gene therapy but that we think is actually incredibly pernicious.
+So first an overview on how this kind of testing actually works.
+Because it doesn't show you something that is like a hundred percent guaranteed to happen in the future.
+Rather it pinpoints specific genes that link to a probability of future development.
+So there might be multiple genes associated with schizophrenia and you might come up positive for one of them, and there might be a fifty fifty percent chance that it causes it in the future.
+But the problem is that the way that humans interpret this data is: " oh no.
+I have the gene for schizophrenia.
+That means I'm going to be schizophrenic. "
+And we think that like what that does mean like what this is is not a complete science that is good for humans to have access to.
+Two main areas of clash, first on preventing discrimination.
+Under this we want to talk about health insurance first.
+Because recognize that your health data gets shown to your health insurance companies almost automatically and it becomes really easy to refuse coverage on the basis of things like this.
+Like there's already a section that allows insurance companies to refuse protections based on pre existing conditions.
+And we think what happens under their side of the house is that that becomes massively expanded based on this idea that like: " look, your genes show this probability, we don't want to assume that risk for you so we're gonna call it a pre existing condition because you knew about it before you got to the insurance company. "
+This becomes really problematic generally for people who want to maintain coverage, but it becomes especially problematic if I'm someone who needs to switch jobs or carriers for any reason.
+Like we think the problem that happens on their side of the house is that there always stuck in this situation where it might not be helpful to the individual, but it's going to be very dangerous once insurance companies get a hold of it.
+Our second argument under this is about employers.
+Like recognize that employers in the status quo are already risk averse when it comes to hiring.
+This is why it's often really hard to get them to hire women who they're afraid you're going to get pregnant.
+Or they don't like to hire old people because they're afraid they're going to be obsolete.
+And so we think that what they do on their side of the house is that if employers get a hold of this information they are infinitely more likely to discriminate based on your future health as well.
+Like what employer wants the potential of someone becoming a schizophrenic or catching cancer and no longer being able to work on their side of the house?
+So, we think that like as a privacy kind of decision, to make sure that these things don't become weaponized against the people who are trying to learn more about themselves, it shouldn't happen.
+Our second area of clash is about security.
+Recognize that the aggregation of very personal data is a very high risk of being released.
+And people love to do the thing where they're like: " oh man.
+Like this stuff never gets hacked. "
+But we've seen recently more and more that that like data security is not very real.
+Like with the hack of intel, with national health service in britain, with equifax.
+Like everyone thought that this was impossible but it's just not.
+So we think what happens on their side of the house is that it's infinitely more likely that someone gets a hold of this very personal data, that it leaks out to employers etcetera.
+But finally we want to talk about preventing overreaction.
+Because recognize the majority of diseases aren't guaranteed.
+Their partially dependent on the environment.
+So my knowledge that my knowledge of like that I might have x disease in the future, probably influence the amount of stress that I experience or what I do from then on.
+So we think that oftentimes these end up self like propagating prophecies.
+Proud to propose.

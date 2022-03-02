@@ -1,0 +1,31 @@
+We should abandon gmail.
+It may seem particular and somewhat biased to point out the faults with gmail alone.
+Make no mistake that all email has problems, however we think that the monopoly exercised by google on the email industry coupled with the fact that google constantly and without any shame steals individuals' data both to optimize its own searches and to sell to other individuals we think it is essential that consumer send a very clear message by outright abandoning gmail.
+With this in mind, we would propose the following model: that individuals simply stop using it, that we as a collective society move to other services whether it's an email provided by our internet service provider or simply buying our own domain and hosting our own email server.
+We generally think that this will improve technological literacy, but we think the most major impacts of this will first be on privacy rights and second on breaking the monopoly that google has over big data.
+So first on privacy.
+First: why is privacy important?
+We think that privacy is the only way in which individuals can comfortably self actualize.
+Every single person has shame, every single person has things that they are into or would like to be into but would otherwise feel shame about it.
+I for instance like cartoons, however if everyone on earth got to know that or even a number of large corporations got to know that and had the potential to release it, I would be far less likely to consume these sort of cartoons.
+We think that if individuals want to live a good life, they should be able to consume things with which they would like to have privacy around.
+Secondly though, we think that privacy is essential for things like political actualization.
+If I'm afraid that the government or a corporation will understand my vote I'm far less likely to express myself politically, send emails to a particular service, or donate to say hillary clinton's campaign if I'm afraid the trump government might be against that.
+As such we think as privacy rights are diminished, individuals are far less likely to engage politically or simply to live a good life.
+Now why does gmail harm our privacy?
+Google mines our data, they mine our emails, and that's the whole reason it's free.
+It's a fairly common saying to say that if you are getting something for free, then you are probably the product and this is incredibly true here.
+There is no free lunch.
+At the point where you use gmail they are likely to use your data for their own projects, likely to sell your data to other corporations, and generally use you as little more than an object.
+At that point we think that individuals who use gmail are far less likely to feel comfortable in terms of their privacy rights, are far less likely to have control over the data that goes out around them, and generally will feel less comfortable in an increasingly technological world.
+My second argument is about monopoly breaking.
+Now google is an incredibly large corporation.
+It doesn't take active steps to destroy smaller corporations but it does it sort of implicitly.
+When google can always access the google suite more effectively, when google can access all data on earth at practically no cost, any industry that it moves into will immediately destroy all competitors.
+There is always some amount of return to scale that is to say the larger a business is the cheaper it can operate.
+Google can leverage its power other over other corporations to guarantee its operating costs are incredibly low.
+This is problematic for a few reasons.
+First, google doesn't really innovate.
+Like they've got these crazy projects going out however they are largely not innovating for the average individual, largely not innovating for the now, and certainly aren't innovating in terms of email.
+As such driving out smaller corporations which might have fresh new ideas harms all individuals and generally means that not google will continue its rent seeking behavior.
+For this reason, we should abandon gmail.

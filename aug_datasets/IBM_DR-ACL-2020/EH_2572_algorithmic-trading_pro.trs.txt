@@ -1,0 +1,22 @@
+The problem with algorithmic trading is that unlike in most forms of sales, for example, when a stock exchange trader sells or buys, he's not just reacting to the market, he's also changing the market.
+Now, the way this is solved is by ensuring that each individual can't, without good reason, shift the market too drastically.
+Algorithmic trading breaks that barrier and allows people to affect the market in negative ways.
+We're going to go into more detail about that.
+Before that, just to be clear on what we're talking about, we're talking about programs that automatically by and or sell stock in very large quantities.
+So for example, we'd be fine with an algorithm that just helped the stock broker do his job a little bit at a time, but not ones that can do it on such large scale.
+So why does this problem arise?
+Stock is a very fickle thing.
+It's affected by mood swings, so to speak.
+What does this mean?
+It means that if, for example, on any given monday morning a whole lot of people suddenly start selling a whole lot of google stock, google stock doesn't just get sold and bought, it also drops because people are afraid of the reason behind why so many people are selling google stock.
+It means that they're losing trust in the stock, that they no longer think it will maintain its value or go up in value.
+Rather, they think it's likely to go down in value and that's why they're dumping it now.
+This is why if particularly large corporations who handle a lot of stock for a lot of people are able to, for example, sell a lot of amazon stock very quickly in one day, that stock takes a hit.
+This means that they're able to affect the price on the market.
+Now, two reasons this is massively problematic.
+One, because it is unduly harmful to the corporations themselves that the companies who because of an algorithm used by the trading brokers, can lose millions of dollars.
+Two, it gives the larger companies an unfair edge within the stock trading game because they literally have an inside effect on the price of the stock.
+So they can drop a whole bunch of stock, that stock then drops in price, and they can buy it back for cheaper, which is what these companies have been doing in recent years with algorithmic trading.
+Now, note that this also specifies why it is algorithmic trading that is the problem since that is being used by corporations that handle a lot of stock from a lot of different sources, as opposed to, for example, if google decided to sell its own stock to an investor in large quantities.
+That, a, doesn't show the same lack of trust, and b, doesn't have the same problem of an outside source affecting the stock price.
+For these reasons, we think it is irresponsible and unfair to allow algorithmic trading, and we wish to ban it.

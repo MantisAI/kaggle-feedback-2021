@@ -1,0 +1,28 @@
+We should not adopt more open software.
+By this we mean to say that companies should not seek to adopt open-source software at the expense of closed-source software.
+So we have three arguments for our side.
+The first is that you get what you pay for.
+The other team, if they're smart, is going to go hard for the idea that oh firefox is open-source and it's great software and while that's true, this isn't true for many other open-source software.
+Anyone who has ever used openoffice as compared to microsoft office and is remotely honest has to admit that the open-source product is vastly inferior to the closed-source one.
+Microsoft office has so many features and is so much easier to use compared openoffice.
+So when we're talking about probably the single most commonly used piece of closed-source software microsoft office, the most none alternative openoffice, is vastly inferior and simply can't replace it.
+For people who make their living by pushing around excel spreadsheets it's really not an option to switch over to using openoffice in its stead.
+Ultimately you get what you pay for.
+When people pour millions of dollars into development, as they do for microsoft office, you end up with a professional grade product and when it's a bunch of people volunteering their time like openoffice, you might end up with something that's good even that's good enough for many people like students or people who stay at home but that simply isn't good enough for corporations or for government or other important enterprises and industries to use.
+Indeed for many specialty products like drafting software, it's unlikely that there would ever even be an open-source alternative just because it's so expensive to develop and it's such a niche market.
+Ultimately, if you have a special need for a certain product you're going to have to pay a lot of money to have that need met and that means not open-source.
+Our second argument is that cost isn't prohibitive for computer software.
+People can moan and groan about shelling out a hundred bucks every few years for microsoft office, but ultimately people can afford to do it.
+If you can afford to spend hundreds of dollars on a computer, then there's no reason why you can't shell out another hundred bucks for software.
+Ultimately, the amount of money that people save on open-source software is negligible when you look at the amount of time that people spend using that software.
+If you spend, as I have, thousands of hours using a legal copy of microsoft word than saving fifty bucks on openoffice spread over the course of those thousands of hours really isn't a lot of money.
+So we just don't think that cost is actually keeping people from using closed-source software.
+Some people might be thieves who want to steal things rather than pay for them, but that doesn't mean that the prices are unfair especially because many companies charge different prices in developing countries so that people in russia or brazil can pay a price that's fair relative to their income, not the same price that americans or germans have to pay.
+And our final point is that this would reduce innovation.
+Right now there's a lot of really cool software being developed because people think there's good money in it.
+If you take the money out of software development a few things will happen.
+First, existing projects will stall because they can no longer attract capital.
+Second of all, students who would have gone into software development will go into other of more lucrative fields instead, so you'll suck out all of the talent from this and thirdly, the corporations that can afford to lose money on software will no longer participate.
+So big firms, like IBM for instance, will be less willing to develop software if they know that there's no way it will ever turn a profit than they would if it has the potential to get big.
+So for all of these reasons, we should not adopt open-source software.
+Thank you.

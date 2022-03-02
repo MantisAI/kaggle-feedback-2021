@@ -1,0 +1,26 @@
+We should ban algorithmic trading.
+So, by this we mean stock purchase orders which are broken down into many small steps rather than executed all at once.
+So, algorithmic trading might focus on particular metrics in the market and use them to purchase one part of an order and then wait until another metric is met to fulfill another part of the order until eventually, the entire thing is completed and this is all done by computer.
+So, two arguments for you: the first is that this encourages risky behavior by investors.
+So, algorithmic trading disassociates the order from the outcome.
+It makes it more difficult for human investors to recognize the connection between the orders they place and any harmful outcomes or positive outcomes that they might receive.
+We think that any one step is more likely to be blamed rather than the original intent.
+So, in other words, if I were to execute a very complicated algorithmic trade and it broke down at some point and I lost a lot of money, I would very likely be angry about the one section of the trade that broke down rather than step back and think that my entire order might have been ill-conceived in the first place if the computer wasn't able to carry it out.
+We think that people are likely, therefore, to take more risk because they won't associate the outcomes with the actions that they're actually taking.
+And it's not to say that risk is bad.
+Obviously, the market requires risk to function and no one will be able to raise capital without it, but ill-considered risk is certainly a bad thing.
+The kind of risk taking that you want to see in a market is carefully calculated, where people think that the return is going to be worth their risk and where people are thinking about the outcomes of their actions in a very considerate way.
+But when you break down this consideration because there's such a long chain of events between the purchase order and the outcome, we think you're going to get ill-considered risk that will actually make investing worse for everyone.
+We think, furthermore, that people are likely to miss the forest for the trees while they're investing.
+In other words, if you're focused on a handful of metrics in the market when you're trying to decide whether or not to invest, you may be more likely to miss larger trends in the market overall.
+We think that this is going to be harmful because there will be unforeseen outcomes as investors focus too much on a handful of arbitrary metrics that can never possibly capture the entire scope of the market and everything that's going on.
+A more old-fashioned approach to trading, where people consider a multitude of factors rather than a handful of algorithms and individual markers for the health of the market, would probably lead to more well-balanced outcomes because it's more all-inclusive.
+So, therefore, we think that the if we don't ban algorithmic trading, you condemn investors to a sort of general short-sightedness where they're only looking at this outcome or this algorithm today or tomorrow and not thinking about the how their portfolio is going to look ten, twenty years down the line.
+Our second argument is that algorithmic trading blocks out small traders.
+So, there's obviously a large competitive advantage for traders that are of a such a scope that they're able to use algorithmic trading.
+If you're a very powerful investment broker and things like that, you're probably going to have access to this technology, but we think that a lot of ordinary people or community pensions and things like that might not actually have access to this.
+So, we think that this entrenches an existing competitive advantage where if you want to invest or if you want a pension fund to invest and things like that, you have to rely on one of a handful of large brokers who can actually afford to have all the tools to manage your account and that gives a lot of power to a handful of people.
+And we think that for small investors who do try to stay in the market, they're going to be victims to a sort of invisible manipulation where, because they don't have access to this algorithmic trading, they're not going to be able to recognize the small changes in the market that are due to this algorithmic trading.
+So, we think that the effect is that there's going to be a different level of access to information because of this practice, that it will actually harm small investors.
+We also tell you that the trading market consolidate because of this, that because this technology gives you an incentive to always put your money in the hands of the largest investors who use this technology, this will reinforce control of the market by a handful of banks that have been very powerful for a long time which tend to be controlled by wealthy white men and entrenches a lot of privilege in the market.
+So, for these reasons, we should ban algorithmic trading.

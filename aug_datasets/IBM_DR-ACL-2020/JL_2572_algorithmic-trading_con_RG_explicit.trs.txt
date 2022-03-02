@@ -1,0 +1,34 @@
+We should not ban algorithmic trading.
+On our side, we're going to explain to you why, first of all, we get closer to a perfect market and, second of all, why we avoid human error.
+And in doing so, I'm going to respond to some of the points that my opponent danny brings up in his speech.
+So, first, why do we get closer to a perfect market?
+What does that mean and why is it important?
+We think that in a free market, the ideal would be that you could exchange any good to anyone who wants to purchase it instantly, with no barriers.
+Now, although it seems funny to say this, time is actually an important barrier to free exchange.
+After all, people want certain goods when they want them, and they don't want to wait for them.
+So we think that it's good for buyers and sellers to make it easier to exchange goods when you can find someone who's willing to enter into a fair contract with you.
+Algorithmic trading removes time as as large a factor.
+Obviously, there is still a delay, but it reduces the effect of time to get in the way of the free market.
+Algorithmic trading doesn't make anyone buy stocks they don't want.
+It doesn't make anyone sell stocks they don't want.
+It just makes it easier.
+Twenty years ago, maybe a little longer, thirty years ago, if I wanted to buy some stock in the acme company, I would have to call a broker and wait all day for him to arrange to buy those stocks, and the price might change dramatically in that time, or some new information might come to light that would change my decision.
+But, nowadays, thanks to algorithmic trading, it's much faster for me to buy the stocks I want.
+I can call my broker and he can instantly buy them because some algorithm will sell, or I can have my money in an index fund that can buy and sell instantly in order to maintain stability.
+So this is clearly actually good for ordinary people trading.
+That actually gets to something danny talked about, namely, fairness.
+He tries to portray this as big businesses using technology to bully out the little guy, but this doesn't actually make any sense, because the little guy is not doing day trading in order to make money.
+At the end of the day, most people have their retirement fund and that's probably the only thing they have invested invested in big index funds.
+We think that because algorithmic treating makes it easier for index funds to balance out their portfolios and to buy and sell when they want to, at the right prices, that this is actually good for the average person, who's just investing so that they can retire sooner.
+And in terms of like small traders, yes, this might have been a problem thirty years ago but, nowadays, access to algorithmic trading is pretty widespread for anyone who's a professional, so we just don't think that this is crowding out the hypothetical small trader, not that that's like a really big group trading right now, as far as I know.
+So I just think that because we closer approximate a free market, and because we improve people's ability to buy what they want, that this is a good thing.
+But secondly, I'd like to point out that this can help us to avoid human error.
+How does algorithmic trading work?
+It's not like AI.
+It's not like we have some star trek computer making decisions about what to buy.
+Instead, we program in a list of rules or preferences to the computer, such as " buy apple at this price, and sell at that price, " and then we let them do their thing.
+The computer never buys too much or too little of a stock as long as we give it the right rules and never buys the wrong stock.
+It never makes an emotional decision, and that's a huge factor, I think.
+The fact that algorithmic trading makes trading a less emotional thing and more based on reason and following certain rules must reduce mistakes and make the entire process better for everyone, because humans are naturally likely to be upset if they see a sudden change in stock value.
+So for all of these reasons, we should not ban algorithmic trading.
+Thank you.

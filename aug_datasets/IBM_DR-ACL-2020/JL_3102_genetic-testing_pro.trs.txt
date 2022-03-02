@@ -1,0 +1,30 @@
+We should limit genetic testing.
+So I want to be very clear what this debate is about.
+By genetic testing, we mean DNA testing, in particular, but also tests for people's ancestry that might use other methods, such as mitochondrial DNA.
+But, ultimately, what we're really looking for is the use of DNA testing for non-medical purposes in this debate.
+We don't want to limit anybody's access to this testing if it's medically necessary to see if they have a genetic disease, but we do think that there is an overreliance on genetic testing by courts and by individuals to solve problems that really should be solved in other ways.
+So, with that in mind, we have a few arguments for why we think genetic testing is harmful the way it's implemented right now.
+Our first argument is about data security and privacy.
+Right now, lots of people, in order to find out their ancestry or determine paternity and things like that, take private genetic tests where you mail in a sample of your saliva or blood, and a lab somewhere else in the country decides what your DNA tells them about you.
+But also, your DNA is being kept in a database by this lab so that you can make follow-up requests.
+What this means is that a huge amount of medical personal data is being stored by these private companies that oftentimes are not held to the same standards that hospitals or universities are when they make use of your data and certainly not to the standard that courts are when they make use of your data.
+So we think that there's a high risk that, in the future, hackers will be able to get access to people's personal genetic data and that this could be used to abuse them in the same way that having a copy of someone's fingerprints could theoretically be used for abuse.
+For instance, in the future, you might be able to verify that your identity is actually that of someone else by using information about their genetic code.
+So we think that there are a lot of potential harms to having all of this data in these databases that are ultimately not held to a very high standard.
+But we also think, as part of this argument, that people don't understand the implications of giving away this information.
+Joe q public does not have a good idea of what it means to give away information about his genetic code to a private company.
+So we don't think that people are able to make an informed decision.
+And, ultimately, when people just don't have access to good decision-making, because you would need expert-level scientific knowledge to really appreciate the potential risks and benefits, that's when we think government should get involved in order to prevent people from being taken advantage of.
+Our next argument after that data security point is about how some institutions in our society overrely on DNA.
+Take courts, for instance.
+Oftentimes in court, if DNA evidence turns up that indicates that someone committed a crime, it's seen as a smoking gun and juries will immediately convict someone.
+But actually, DNA evidence doesn't always prove what it prosecutors claim that it does.
+You might know that someone threw away a kleenex in a particular room where a crime was committed, but that doesn't necessarily prove that someone committed that crime.
+And it's pretty rare that DNA evidence is used well.
+Oftentimes, it's just used as this kind of magical thing that immediately proves someone is guilty or not guilty when, in fact, that causes us to ignore other evidence that might lead us to the truth.
+So we think that the courts are the first institution that routinely misuse DNA evidence and it might be better off having to restrict their use of DNA evidence to very, very certain types of use or very, very certain circumstances.
+But moreover, we also think that people rely too much on them for other issues, for instance, paternity.
+DNA testing can tell you that two people are related but to my understanding, it's not bulletproof that a private DNA test proves paternity, for instance, even though it's often used that way in our society.
+So we think that social solutions to these problems might be better than scientific ones.
+So because DNA is often overrelied on, we should limit its use to times when it's really appropriate.
+Thank you.
