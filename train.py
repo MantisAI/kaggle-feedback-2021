@@ -52,3 +52,15 @@ def train(config):
         test_params,
         ids_to_labels,
     )
+
+    return (model,
+        config,
+        training_loader,
+        train_df,
+        valid_idx,
+        testing_set,
+        test_dataset,
+        IDS,
+        test_params,
+        ids_to_labels
+    )
