@@ -64,3 +64,24 @@ def train(config):
         test_params,
         ids_to_labels
     )
+
+if __name__ == "__main__":
+    from torch import cuda
+    import numpy as np
+
+    config = {
+        'model_name': "longformer-base-pretrained",   
+        'local_model_path': "longformer-base-pretrained",
+        'pretrained_model_path': "longformer-base-pretrained/pytorch_model.bin",
+        'data_path': os.path.expanduser("~/Google Drive/My Drive/feedback-kaggle/train_NER.csv"),
+        'train_val_split': 0.9,
+        'max_length': 1024,
+        'train_batch_size': 1,
+        'valid_batch_size': 2,
+        'epochs':5,
+        'learning_rates': np.array([5e-5, 2.5e-5, 5e-5, 2.5e-6, 2.5e-6])/4,
+        'max_grad_norm':10,
+        'device': 'cuda' if cuda.is_available() else 'cpu',
+        'loss_weights': [0.3, 0.5,0.5, 0.5,0.5, 0.5,0.5, 1.,1., 1.,1., 0.5,0.5, 0.5, 0.5]
+    }
+    train(config)

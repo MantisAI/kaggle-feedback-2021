@@ -66,7 +66,7 @@ def construct_formated_data(train_df, train_text_df, csv_path):
     train_text_df.to_csv(csv_path, index=False)
 
 
-def load_formated_data():
+def load_formated_data(data_path):
     train_df = pd.read_csv("train.csv")
     train_complete = []
     for idx, row in train_df.iterrows():
@@ -87,7 +87,7 @@ def load_formated_data():
         test_texts.append(open("test/" + f, "r").read())
     test_texts = pd.DataFrame({"id": test_names, "text": test_texts})
 
-    train_text_df = pd.read_csv("/content/drive/MyDrive/feedback-kaggle/train_NER.csv")
+    train_text_df = pd.read_csv(data_path)
     # pandas saves lists as string, we must convert back
     train_text_df.entities = train_text_df.entities.apply(lambda x: literal_eval(x))
     return train_df, train_text_df, test_texts
@@ -200,7 +200,7 @@ def get_loaders(
 def get_train_data(
     tokenizer, config, train_params, test_params, labels_to_ids, include_augmented=[]
 ):
-    train_df, train_text_df, test_texts = load_formated_data()
+    train_df, train_text_df, test_texts = load_formated_data(config["data_path"])
     return get_loaders(
         train_df,
         train_text_df,
