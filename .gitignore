@@ -6,9 +6,15 @@ __pycache__/
 
 # Notebooks
 .ipynb_checkpoints
+notebooks/
 
 # Data
 *.spacy
+*.csv
+
+# Models
+*.zip
+longformer-*
 
 # Mac
 .DS_Store
