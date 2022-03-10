@@ -3,3 +3,15 @@ venv
 
 # Python
 __pycache__/
+
+# Notebooks
+.ipynb_checkpoints
+
+# Data
+*.spacy
+
+# Mac
+.DS_Store
+
+# Wanb
+wandb
