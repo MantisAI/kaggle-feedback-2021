@@ -1,12 +1,14 @@
 from ast import literal_eval
+import os
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
-from torch.cuda.amp import GradScaler
+from torch.cuda.amp import GradScaler, autocast
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 import pandas as pd
 import torch
 import typer
+import wandb
 
 LABELS = [
     "O",
@@ -60,11 +62,26 @@ class KaggleDataset(Dataset):
         inputs = {k: torch.tensor(v) for k, v in inputs.items()}
         return inputs, torch.tensor(label_ids)
 
-def train(data_path, model_path, pretrained_model="allenai/longformer-base-4096", epochs:int=5, batch_size:int=32, learning_rate:float=1e-5, max_length:int=1024, mixed_precision:bool=False): 
+def train(data_path, model_path, pretrained_model="allenai/longformer-base-4096", epochs:int=5, batch_size:int=32,
+          learning_rate:float=1e-5, max_length:int=1024, mixed_precision:bool=False, dry_run:bool=False):
+    if not dry_run:
+        config = {
+            "pretrained_model": pretrained_model,
+            "epochs": epochs,
+            "batch_size": batch_size,
+            "learning_rate": learning_rate,
+            "max_length": max_length,
+            "mixed_precision": mixed_precision
+        }
+        wandb.init(project="kaggle-torch", config=config)
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+
     dataset = KaggleDataset(data_path, tokenizer_model=pretrained_model, max_length=max_length)
     data = DataLoader(dataset, batch_size=batch_size, shuffle=True)
 
     model = AutoModelForTokenClassification.from_pretrained(pretrained_model, num_labels=len(LABELS))
+    model.to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     criterion = torch.nn.CrossEntropyLoss()
@@ -72,23 +89,45 @@ def train(data_path, model_path, pretrained_model="allenai/longformer-base-4096"
     if mixed_precision:
         scaler = GradScaler()
 
-    for i in range(epochs):
-        for batch in tqdm(data):
+    for epoch in range(epochs):
+        batches = tqdm(data, desc=f"Epoch {epoch:2d}/{epochs:2d}")
+        for batch in batches:
             inputs, labels = batch
+
+            input_ids = inputs["input_ids"].to(device)
+            attention_mask = inputs["attention_mask"].to(device)
+            labels = labels.to(device)
 
             optimizer.zero_grad()
 
-#            with torch.autocast(device_type="cpu"):
-            outputs = model(**inputs)
-            loss = criterion(outputs.logits.transpose(1,2), labels)
-            
             if mixed_precision:
+                with autocast():
+                    outputs = model(**inputs)
+                    loss = criterion(outputs.logits.transpose(1,2), labels)
                 scaler.scale(loss).backward()
                 scaler.step(optimizer)
                 scaler.update()
             else:
+                outputs = model(**inputs)
+                loss = criterion(outputs.logits.transpose(1,2), labels)
                 loss.backward()
                 optimizer.step()
+
+            metrics = {"loss": loss.item()}
+            batches.set_postfix(metrics)
+
+            if dry_run:
+                break
+            
+            wandb.log(metrics)
+
+        model.save_pretrained(os.path.join(model_path, f"epoch-{epoch}"))
+
+        if dry_run:
+            break
+
+    model.save_pretrained(model_path)
+    tokenizer.save_pretrained(model_path)
 
 if __name__ == "__main__":
     typer.run(train)

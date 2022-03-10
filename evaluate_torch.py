@@ -128,7 +128,7 @@ def align_preds_words(preds, inputs):
         previous_word_id = None
         for word_idx, word_id in enumerate(word_ids):
             # When we reach a pad token, sequence has ended
-            if word_idx == -1:
+            if word_id == 1:
                 break
 
             word_pred = pred[word_idx]
