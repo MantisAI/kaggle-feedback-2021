@@ -6,6 +6,7 @@ from torch.cuda.amp import GradScaler, autocast
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
 import pandas as pd
+import transformers
 import torch
 import typer
 import wandb
@@ -31,6 +32,7 @@ LABELS = [
 class KaggleDataset(Dataset):
     def __init__(self, data_path, tokenizer_model, max_length=1024):
         data = pd.read_csv(data_path)
+        data = data[data["kfold"]==0]
     
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_model, add_prefix_space=True)
         self.tokens = data.text.str.split()
@@ -63,7 +65,9 @@ class KaggleDataset(Dataset):
         return inputs, torch.tensor(label_ids)
 
 def train(data_path, model_path, pretrained_model="allenai/longformer-base-4096", epochs:int=5, batch_size:int=32,
-          learning_rate:float=1e-5, max_length:int=1024, mixed_precision:bool=False, dry_run:bool=False):
+          learning_rate:float=1e-5, max_length:int=1024, clip_value:int=5, num_warmup_steps:int=200,
+          learning_rate_schedule="cosine_warmup",
+          gradient_accumulation_steps:int=1, mixed_precision:bool=False, dry_run:bool=False):
     if not dry_run:
         config = {
             "pretrained_model": pretrained_model,
@@ -71,7 +75,9 @@ def train(data_path, model_path, pretrained_model="allenai/longformer-base-4096"
             "batch_size": batch_size,
             "learning_rate": learning_rate,
             "max_length": max_length,
-            "mixed_precision": mixed_precision
+            "gradient_accumulation_steps": gradient_accumulation_steps,
+            "mixed_precision": mixed_precision,
+            "learning_rate_schedule": learning_rate_schedule
         }
         wandb.init(project="kaggle-torch", config=config)
 
@@ -85,49 +91,67 @@ def train(data_path, model_path, pretrained_model="allenai/longformer-base-4096"
 
     optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
     criterion = torch.nn.CrossEntropyLoss()
+    if learning_rate_schedule == "cosine_warmup":
+        scheduler = transformers.get_cosine_schedule_with_warmup(optimizer, num_warmup_steps=num_warmup_steps, num_training_steps=epochs*len(data))
 
     if mixed_precision:
         scaler = GradScaler()
 
-    for epoch in range(epochs):
-        batches = tqdm(data, desc=f"Epoch {epoch:2d}/{epochs:2d}")
-        for batch in batches:
-            inputs, labels = batch
+    try:
+        for epoch in range(epochs):
+            batches = tqdm(data, desc=f"Epoch {epoch:2d}/{epochs:2d}")
+            for step, batch in enumerate(batches):
+                inputs, labels = batch
 
-            input_ids = inputs["input_ids"].to(device)
-            attention_mask = inputs["attention_mask"].to(device)
-            labels = labels.to(device)
+                input_ids = inputs["input_ids"].to(device)
+                attention_mask = inputs["attention_mask"].to(device)
+                labels = labels.to(device)
 
-            optimizer.zero_grad()
-
-            if mixed_precision:
-                with autocast():
+                if mixed_precision:
+                    with autocast():
+                        outputs = model(input_ids=input_ids, attention_mask=attention_mask)
+                        loss = criterion(outputs.logits.transpose(1,2), labels)
+                    scaler.scale(loss).backward()
+                else:
                     outputs = model(**inputs)
                     loss = criterion(outputs.logits.transpose(1,2), labels)
-                scaler.scale(loss).backward()
-                scaler.step(optimizer)
-                scaler.update()
-            else:
-                outputs = model(**inputs)
-                loss = criterion(outputs.logits.transpose(1,2), labels)
-                loss.backward()
-                optimizer.step()
 
-            metrics = {"loss": loss.item()}
-            batches.set_postfix(metrics)
+                if step % gradient_accumulation_steps == 0:
+                    if mixed_precision:
+                        scaler.unscale_(optimizer)
+                
+                    torch.nn.utils.clip_grad_norm_(model.parameters(), clip_value)
+
+                    if mixed_precision:
+                        scaler.step(optimizer)
+                        scaler.update()
+                    else:
+                        loss.backward()
+                        optimizer.step()
+            
+                    optimizer.zero_grad()
+
+                if learning_rate_schedule != "constant":
+                    scheduler.step()
+
+                metrics = {"loss": loss.item()}
+                batches.set_postfix(metrics)
+
+                if dry_run:
+                    break
+            
+                wandb.log(metrics)
+
+            model.save_pretrained(os.path.join(model_path, f"epoch-{epoch}"))
 
             if dry_run:
                 break
-            
-            wandb.log(metrics)
 
-        model.save_pretrained(os.path.join(model_path, f"epoch-{epoch}"))
-
-        if dry_run:
-            break
-
+    except KeyboardInterrupt:
+        print("Exiting training early...")
+    
     model.save_pretrained(model_path)
-    tokenizer.save_pretrained(model_path)
+    dataset.tokenizer.save_pretrained(model_path)
 
 if __name__ == "__main__":
     typer.run(train)

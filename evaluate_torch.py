@@ -159,8 +159,11 @@ def convert_to_submission_data(preds, test_data):
         entity_words = []
         for word_idx, word in enumerate(words):
             label = id2label[pred[word_idx]]
-
             if label[0] in ["O", "B"] and entity_words:
+                entity_text = " ".join(entity_words)
+                entity_words = []
+                pred_data.append({"id": doc_id, "class": entity_label, "predictionstring": entity_text})
+            elif label[0] == "I" and entity_words and label[2:] != entity_label:
                 entity_text = " ".join(entity_words)
                 entity_words = []
                 pred_data.append({"id": doc_id, "class": entity_label, "predictionstring": entity_text})
@@ -177,24 +180,34 @@ def convert_to_submission_data(preds, test_data):
 def evaluate(model_path, data_path, batch_size:int=32, dry_run:bool=False):
     # WARNING: Need to split train_NER to train_data.csv and train.csv to test_data.csv
     test_data = pd.read_csv(data_path)
+ 
+    train_data = pd.read_csv("train_NER_folds.csv")
+    test_data_ids = train_data[train_data["kfold"]==1]["id"]
+    test_data = test_data.merge(test_data_ids)
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
 
     tokenizer = AutoTokenizer.from_pretrained(model_path, add_prefix_space=True)
     dataset = TestDataset(test_data, tokenizer)
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
 
     model = AutoModelForTokenClassification.from_pretrained(model_path, num_labels=15) # Remove num_labels - only there for testing
+    model.to(device)
     model.eval()
     
     aligned_preds = []
     for inputs in tqdm(dataloader):
-        outputs = model(**inputs)
-        preds = torch.argmax(outputs.logits, dim=2).numpy()
+        input_ids = inputs["input_ids"].to(device)
+        attention_mask = inputs["attention_mask"].to(device)
+
+        outputs = model(input_ids, attention_mask)
+        preds = torch.argmax(outputs.logits, dim=2).cpu().numpy()
         
         aligned_preds.extend(align_preds_words(preds, inputs))
 
         if dry_run:
             break
-        
+    
     pred_data = convert_to_submission_data(aligned_preds, test_data)
 
     f1 = score_feedback_comp(pred_data, test_data)

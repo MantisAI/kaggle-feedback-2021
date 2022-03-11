@@ -15,6 +15,7 @@ notebooks/
 # Models
 *.zip
 longformer-*
+models/
 
 # Mac
 .DS_Store
