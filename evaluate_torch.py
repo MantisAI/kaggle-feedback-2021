@@ -24,6 +24,16 @@ LABELS = [
     "I-Concluding Statement",
 ]
 
+LABEL_LEN_THRESHOLD = {
+    "Lead": 9,
+    "Position": 5,
+    "Evidence": 14,
+    "Claim": 3,
+    "Concluding Statement": 11,
+    "Counterclaim": 6,
+    "Rebuttal": 4,
+}
+
 # from Rob Mulla @robikscube
 # https://www.kaggle.com/robikscube/student-writing-competition-twitch
 def calc_overlap(row):
@@ -106,16 +116,17 @@ def score_feedback_comp(pred_df, gt_df):
 
 
 class TestDataset(Dataset):
-    def __init__(self, data, tokenizer):
+    def __init__(self, data, tokenizer, max_length=1024):
         self.data = data
         self.tokenizer = tokenizer
+        self.max_length = max_length
 
     def __len__(self):
         return len(self.data)
 
     def __getitem__(self, idx):
-        tokens = self.data.iloc[idx]["discourse_text"].split()
-        inputs = self.tokenizer(tokens, padding="max_length", truncation=True, max_length=1024, is_split_into_words=True)
+        tokens = self.data.iloc[idx]["text"].split()
+        inputs = self.tokenizer(tokens, padding="max_length", truncation=True, max_length=self.max_length, is_split_into_words=True)
         return {k: torch.tensor(v) for k,v in inputs.items()}
 
 
@@ -153,45 +164,47 @@ def convert_to_submission_data(preds, test_data):
     
     pred_data = []
     for i, pred in enumerate(preds):
-        words = test_data.iloc[i]["discourse_text"].split()
+        words = test_data.iloc[i]["text"].split()
         doc_id = test_data.iloc[i]["id"]
     
+        entity_word_ids = []
         entity_words = []
         for word_idx, word in enumerate(words):
             label = id2label[pred[word_idx]]
-            if label[0] in ["O", "B"] and entity_words:
-                entity_text = " ".join(entity_words)
+            if entity_words and (label[0] in ["O", "B"] or (label[0] == "I" and label[2:] != entity_label)):
+                if len(entity_words) >= LABEL_LEN_THRESHOLD[entity_label]:
+                    entity_text = " ".join(entity_words)
+                    predictionstring = " ".join(entity_word_ids)
+                    pred_data.append({"id": doc_id, "class": entity_label, "predictionstring": predictionstring, "entity_text": entity_text})
                 entity_words = []
-                pred_data.append({"id": doc_id, "class": entity_label, "predictionstring": entity_text})
-            elif label[0] == "I" and entity_words and label[2:] != entity_label:
-                entity_text = " ".join(entity_words)
-                entity_words = []
-                pred_data.append({"id": doc_id, "class": entity_label, "predictionstring": entity_text})
+                entity_word_ids = []
             elif label[0] == "O":
                 pass
             else:
                 _, label_name = label.split("-")
                 entity_words.append(word)
+                entity_word_ids.append(str(word_idx))
                 entity_label = label_name
 
     return pd.DataFrame(pred_data)
 
 
-def evaluate(model_path, data_path, batch_size:int=32, dry_run:bool=False):
+def evaluate(model_path, data_path, competition_data_path, pretrained_model="allenai/longformer-base-4096", batch_size:int=32, max_length:int=1024, dry_run:bool=False):
     # WARNING: Need to split train_NER to train_data.csv and train.csv to test_data.csv
-    test_data = pd.read_csv(data_path)
- 
-    train_data = pd.read_csv("train_NER_folds.csv")
-    test_data_ids = train_data[train_data["kfold"]==1]["id"]
-    test_data = test_data.merge(test_data_ids)
+    test_data = pd.read_csv(data_path) 
+    test_data = test_data[test_data["kfold"]==1]
+
+    competition_data = pd.read_csv(competition_data_path)
+    competition_data = competition_data.merge(test_data, on="id")
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
 
-    tokenizer = AutoTokenizer.from_pretrained(model_path, add_prefix_space=True)
-    dataset = TestDataset(test_data, tokenizer)
+    tokenizer = AutoTokenizer.from_pretrained(pretrained_model, add_prefix_space=True)
+    dataset = TestDataset(test_data, tokenizer, max_length)
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
 
-    model = AutoModelForTokenClassification.from_pretrained(model_path, num_labels=15) # Remove num_labels - only there for testing
+    model = AutoModelForTokenClassification.from_pretrained(pretrained_model, num_labels=15)
+    model.load_state_dict(torch.load(model_path, map_location=torch.device(device)))
     model.to(device)
     model.eval()
     
@@ -210,7 +223,7 @@ def evaluate(model_path, data_path, batch_size:int=32, dry_run:bool=False):
     
     pred_data = convert_to_submission_data(aligned_preds, test_data)
 
-    f1 = score_feedback_comp(pred_data, test_data)
+    f1 = score_feedback_comp(pred_data, competition_data.merge(pred_data[["id"]].drop_duplicates()))
     print(f1)
 
 if __name__ == "__main__":
