@@ -3,3 +3,22 @@ venv
 
 # Python
 __pycache__/
+
+# Notebooks
+.ipynb_checkpoints
+notebooks/
+
+# Data
+*.spacy
+*.csv
+
+# Models
+*.zip
+longformer-*
+models/
+
+# Mac
+.DS_Store
+
+# Wanb
+wandb
