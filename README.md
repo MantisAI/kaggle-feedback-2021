@@ -10,4 +10,26 @@
 More clean one: https://www.kaggle.com/dinowun/eda-simplified-feedback-prize
 More comprehensive one: https://www.kaggle.com/erikbruin/nlp-on-student-writing-eda
 
+## Local run
 
+Create virtualenv
+```
+python -m venv venv # or your way of creating it
+source venv/bin/activate
+pip install --upgrade pip # cause why not
+```
+
+Install requirements
+```
+pip install -r requirements.txt
+```
+
+Get model
+```
+bash get_model.sh
+```
+
+Run train
+```
+python train.py
+```
